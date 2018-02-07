@@ -1,7 +1,7 @@
 	<!-- form1-->
 	<div class="content-section-a">
 		<div class="container fadeDown" align="center ">
-			<h1>Advancing   <span>Emotional</strong>   Intelligense</h1>
+			<h1>Advancing   <span>Emotional</strong>   Intelligence</h1>
 				<br/><br />
 			<div class="row">
 				<div class="col-sm-6 animated fadeInLeftBig" align="right">
