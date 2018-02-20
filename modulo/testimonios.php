@@ -170,18 +170,3 @@
 	<!-- End contain wrapp -->
 
 
-<!--contacto-->
-<div class="cta-wrapp inverse-bg">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
-				<h4>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</h4>
-				
-			</div>
-			<div class="col-md-4">
-				<a class="btn btn-primary btn-lg btn-3d btn-icon icon-divider" href="#"><i class="fa fa-rocket"></i>Contactanos</a>
-			</div>
-		</div>
-	</div>
-</div>
-<!--contacto-->

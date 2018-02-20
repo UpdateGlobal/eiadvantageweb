@@ -136,9 +136,9 @@
 			</div>
 			<div class="col-sm-4" style="padding-top: 30px;">
 
-				<p style="font-size: 14px; color: #19b3a1">	<i class="fa fa-home icon-default fa-3x" style="color: #19b3a1;"></i> Dirección: xxxxxx-xxxxxx-xxxxxx-xx</p>
-				<p style="font-size: 14px; color: #19b3a1">	<i class="fa fa-phone icon-default fa-3x" style="color: #19b3a1;"></i>  Telefono: xxx-xxx-xxx</p>
-				<p style="font-size: 14px; color: #19b3a1">	<i class="fa fa-paper-plane icon-default fa-3x" style="color: #19b3a1;"></i>   Correo: xxxxxxxx@xxxxxxxxxxxxx.com</p>
+				<p style="font-size: 14px; color: #19b3a1">	<i class="fa fa-home icon-default fa-3x" style="color: #19b3a1;"></i> Dirección: Dirección: Av. La Encalada 1090, Of. 803, Santiago de Surco, Lima 15023, Perú</p>
+				<p style="font-size: 14px; color: #19b3a1">	<i class="fa fa-phone icon-default fa-3x" style="color: #19b3a1;"></i>  Telefono: +51 (1) 634-4540</p>
+				<p style="font-size: 14px; color: #19b3a1">	<i class="fa fa-paper-plane icon-default fa-3x" style="color: #19b3a1;"></i>   Correo: info@ei-advantage.com</p>
 				
 				
 			</div>

@@ -62,8 +62,15 @@
 
 
 					<li class="dropdown">
-						<a href="inteligenciaEmocional.php" class="dropdown-toggle" data-toggle="dropdown">Inteligencia Emocional</a>
+						<a href="" class="dropdown-toggle" data-toggle="dropdown">Inteligencia Emocional</a>
 						<ul class="dropdown-menu">
+							<li class="dropdown.menu">
+								<a href="inteligenciaEmocional.php">Inteligencia Emocional</a>
+							</li>
+							<li class="dropdown.menu">
+								<a href="evaluciones.php">Evaluaciones</a>
+							</li>
+
 							<li class="dropdown.menu">
 								<a href="modelInteligenciaEmocional.php">Modelo Genos de Inteligencia Emocional</a>
 							</li>

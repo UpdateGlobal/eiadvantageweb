@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="single-line-heading">
-						<h5 style="font-family: 'WorkSans-SemiBold';font-size: 27px;">Nuestros Clientes</h5>
+						<h5>Clientes Globales</h5>
 					</div>
 				</div>
 			</div>

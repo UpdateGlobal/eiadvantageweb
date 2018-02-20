@@ -41,6 +41,7 @@
 		    include ('modulo/seccion1-1.php');
 			include ('modulo/seccion1-2.php');
 			include ('modulo/testimonios.php');
+			include ('modulo/contactobtn.php');
 			include ('modulo/clientes.php');
 			include ('modulo/footer.php');
 		?>

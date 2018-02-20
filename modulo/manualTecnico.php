@@ -13,7 +13,7 @@
 
 <br>
 <button>
-	<a href="#">Descargar pdf</a>
+	<a href="https://drive.google.com/file/d/1UoLueKMnd4MzDlIWmSKfUSMbQMIWMwcv/view?usp=sharing" target="new">Descargar pdf</a>
 </button><br><br>
 <img src="http://via.placeholder.com/320x320">
 		</div>

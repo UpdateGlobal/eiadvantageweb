@@ -578,7 +578,7 @@ ol {
 
 ul li,
 ol li{
-    margin-bottom: 5px;
+    margin-bottom: -5px;
 }
 
 .list-icons{

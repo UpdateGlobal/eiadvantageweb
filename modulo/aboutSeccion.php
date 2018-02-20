@@ -55,35 +55,28 @@
 <div class="container" >
 	<br><br><br><br>
 		<div class="container fadeDown" align="center ">
-			<h1>Liderazgo   <span>Genos</strong></h1>
+			 
+			<h1>EI Advantage:  <span>Partner Regional Genos para </strong>América Latina</h1>
 		</div>
-	<div class="row">
-		<div class="col-sm-6 animated fadeInLeftBig" >
-			<!--tarjetaflip1-->
+<!-- 	<div class="row">
+		<div class="col-sm-6 animated fadeInLeftBig">
 			<div class="flip-container container" ontouchstart="this.classList.toggle('hover');">
 				<div class="flipper row">
 					<div class="front col-sm-6" align="center" >
-						<!--¡bodyflip-->
 						<img src="img/team/team01.png" class="img-responsive" alt="" style="border-radius: 1000px" width="50%" height="50%">
-					
 						<div class="">
 							<h3>Nombre Des.</h3>
 							<span class="position">Designer & atr directions</span>
 							<p class="lead">Leer Mas</p>
 						</div>
-						<!--¡bodyflip-->
 					</div>
 					<div class="back2  col-sm-6">
-						<!--bodyflipback-->
 						<div class="lead3" style="font-size: 18px;"><blockquote>LLorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen</blockquote>
 						<br/>
 						</div>
-
-						<!--bodyflipback-->
 					</div>
 				</div>
 			</div>
-			<!--tarjetaflipend-->
 			<div align="center" style="padding-top: 5px;">
 							<a href="#"><i class="fa fa-facebook icon-circle icon-stroke fa-4x"></i></a>
 							<a href="#"><i class="fa fa-twitter icon-circle icon-stroke fa-4x"></i></a>
@@ -91,38 +84,31 @@
 						</div>
 		</div>
 		<div class="col-sm-6 animated fadeInRightBig" >
-			<!--tarjetaflip1-->
 			<div class="flip-container container" ontouchstart="this.classList.toggle('hover');">
 				<div class="flipper row">
 					<div class="front col-sm-6" align="center" >
-						<!--¡bodyflip-->
 						<img src="img/team/team01.png" class="img-responsive" alt="" style="border-radius: 1000px" width="50%" height="50%">
-					
 						<div class="">
 							<h3>Nombre Des.</h3>
 							<span class="position">Designer & atr directions</span>
 							<p class="lead">Leer Mas</p>
 						</div>
-						<!--¡bodyflip-->
 					</div>
 					<div class="back2  col-sm-6">
-						<!--bodyflipback-->
 						<div class="lead3" style="font-size: 18px;"><blockquote>LLorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen</blockquote>
 						<br/>
 						</div>
-
-						<!--bodyflipback-->
 					</div>
 				</div>
 			</div>
-			<!--tarjetaflipend-->
+	
 			<div align="center" padding-top: 5px;">
 							<a href="#"><i class="fa fa-facebook icon-circle icon-stroke fa-4x"></i></a>
 							<a href="#"><i class="fa fa-twitter icon-circle icon-stroke fa-4x"></i></a>
 							<a href="#"><i class="fa fa-instagram icon-circle icon-stroke fa-4x"></i></a>
 						</div>
 		</div>
-	</div>
+	</div> -->
 
 
 
@@ -133,11 +119,11 @@
 
 <div class="container" align="center">
 	<div class="row">
-		<div class="col-sm-12">
+<!-- 		<div class="col-sm-12">
 			<br><br>
 			<img src="http://via.placeholder.com/1024x580" class="img-responsive">
 			<br><br>
-		</div>
+		</div> -->
 		<br><br>
 		<div>
 			<p class="lead" align="justify">Con más de 18 años de experiencia en la provisión de las más avanzadas y efectivas soluciones y herramientas para la gestión y optimización del capital humano en las organizaciones, también asumimos ahora la operación comercial y el desarrollo de negocios de Genos International en América Latina. Con esta valiosa adición a nuestro portafolio de soluciones, ampliamos nuestras posibilidades de contribuir a que nuestros Clientes y Partners alcancen sus objetivos corporativos.<br>

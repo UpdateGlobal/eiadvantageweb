@@ -2,8 +2,8 @@
 	<div class="top-wrapper sm back2">
 		<div class="container">
 			<div class="row" style="text-decoration: none;">
-				<div class="col-md-4"><a href="index2.php">
-				<img  src="img/logo-ei.png" class="img-responsive"  width="60%" height="80%">
+				<div class="col-md-4"><a href="index.php">
+				<img  src="img/logo-ei.png" class="img-responsive"  style="width: 67%; height: 80%;">
 			</a>
 				</div>
 
@@ -16,7 +16,7 @@
 						</li>
 						<li>
 							<a href="youtube.com">
-								<i class="fa fa-youtube"></i>
+								<i class="fa fa-linkedin"></i>
 							</a>
 						</li>
 						<li>

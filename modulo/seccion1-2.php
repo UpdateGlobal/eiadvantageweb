@@ -57,7 +57,7 @@
 								<div class="puzzle-body">
 									<h5>Fortaleza</h5>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										Desarrolla la Inteligencia Emocional del Líder para incrementar el Compromiso de su Gente
 									</p>
 								</div>
 							</div>
@@ -68,7 +68,8 @@
 								<div class="puzzle-body">
 									<h5>Fortaleza</h5>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										Crea un ambiente positivo para la Gestión del Cambio, tanto de corto como de largo plazo
+										<br><br>
 									</p>
 								</div>
 							</div>
@@ -79,7 +80,8 @@
 								<div class="puzzle-body">
 									<h5>Fortaleza</h5>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										Mejora sustancialmente el Trabajo en Equipo
+										<br><br><br>
 									</p>
 								</div>
 							</div>
@@ -90,7 +92,8 @@
 								<div class="puzzle-body">
 									<h5>Fortaleza</h5>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										Incrementa los Resultados de Ventas
+										<br><br><br>
 									</p>
 								</div>
 							</div>
