@@ -49,7 +49,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="" class="dropdown-toggle">Nosotros</a>
-						<ul class="dropdown-menu">
+						<ul class="dropdown-menu" style="margin-top: -5px;">
 							<li>
 								<a href="about.php">Eiadvantage</a>
 							</li>
@@ -63,12 +63,12 @@
 
 					<li class="dropdown">
 						<a href="" class="dropdown-toggle" data-toggle="dropdown">Inteligencia Emocional</a>
-						<ul class="dropdown-menu">
+						<ul class="dropdown-menu" style="margin-top: -5px;">
 							<li class="dropdown.menu">
-								<a href="inteligenciaEmocional.php">Inteligencia Emocional</a>
+								<a href="inteligenciaEmocional.php">¿Que es Inteligencia Emocional?</a>
 							</li>
 							<li class="dropdown.menu">
-								<a href="evaluciones.php">Evaluaciones</a>
+								<a href="evaluciones.php">Evaluaciones de Inteligencia Emocional</a>
 							</li>
 
 							<li class="dropdown.menu">
@@ -98,7 +98,7 @@
 
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Certificaciónes</a>
-						<ul class="dropdown-menu">
+						<ul class="dropdown-menu" style="margin-top: -5px;">
 							<li class="dropdown">
 								<a href="certificacionDetalles.php">Detalles de Certificado</a>
 							</li>
@@ -110,7 +110,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Evaluaciónes</a>
-						<ul class="dropdown-menu">
+						<ul class="dropdown-menu" style="margin-top: -5px;">
 							<li class="dropdown">
 								<a href="evaluciones.php">Evaluaciónes</a>
 							</li>

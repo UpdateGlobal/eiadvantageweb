@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row" style="text-decoration: none;">
 				<div class="col-md-4"><a href="index.php">
-				<img  src="img/logo-ei.png" class="img-responsive"  style="width: 67%; height: 80%;">
+				<img  src="img/logo-ei.png" class="img-responsive"  style="width: 75%; height: 80%;">
 			</a>
 				</div>
 

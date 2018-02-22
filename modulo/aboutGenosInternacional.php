@@ -33,31 +33,6 @@
 	</div>
 </div>
 <div class="container">
-	<div class="row">
-		<div class="col-sm-3"><img src="img/toyota.jpg"></div>
-		<div class="col-sm-3"><img src="img/sanafoni.jpg"></div>
-		<div class="col-sm-3"><img src="img/aim.jpg"></div>
-		<div class="col-sm-3"><img src="img/pwc.jpg"></div>
-	</div>
-	<div class="row">
-		<div class="col-sm-3"><img src="img/eliza.jpg"></div>
-		<div class="col-sm-3"><img src="img/nab.jpg"></div>
-		<div class="col-sm-3"><img src="img/pfizer.jpg"></div>
-		<div class="col-sm-3"><img src="img/micro.jpg"></div>
-	</div>
-	<div class="row">
-		<div class="col-sm-3"><img src="img/bmw.jpg"></div>
-		<div class="col-sm-3"><img src="img/tas.jpg"></div>
-		<div class="col-sm-3"><img src="img/agm.jpg"></div>
-		<div class="col-sm-3"><img src="img/ibm.jpg"></div>
-	</div>
-	<div class="row">
-		<div class="col-sm-3"><img src="img/wal.jpg"></div>
-		<div class="col-sm-3"><img src="img/anz.jpg"></div>
-		<div class="col-sm-3"><img src="img/nsw.jpg"></div>
-		<div class="col-sm-3"><img src="img/mazon.jpg"></div>
-	</div>
-
 	<h3>Organizaciones de todo<span>el mundo usan nuestras evaluaciones</span>y programas para mejorar:</h3>
 	<ul class="lead" style="padding-left: 70px;">
 		<li>Liderazgo</li>

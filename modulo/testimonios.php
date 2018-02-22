@@ -16,15 +16,12 @@
 							<div class="testimoni-wrapp">
 								<div class="testimoni">
 									<blockquote>
-										<p class="lead">
+										<p class="lead texttesti">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 										</p>
 									</blockquote>
 								</div>
 								<div class="testimoni-author">
-									<a href="#" class="avatar">
-										<img src="http://via.placeholder.com/60x60" class="img-responsive">
-									</a>
 									<h6 style="font-family: 'WorkSans-SemiBold';">Edah
 										<span>serbo</span>
 									</h6>
@@ -41,15 +38,12 @@
 							<div class="testimoni-wrapp">
 								<div class="testimoni">
 									<blockquote>
-										<p class="lead">
+										<p class="lead texttesti">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 										</p>
 									</blockquote>
 								</div>
 								<div class="testimoni-author">
-									<a href="#" class="avatar">
-									<img src="http://via.placeholder.com/60x60" class="img-responsive">
-									</a>
 									<h6 style="font-family: 'WorkSans-SemiBold';">Luis
 										<span>Bernal</span>
 									</h6>
@@ -66,15 +60,12 @@
 							<div class="testimoni-wrapp">
 								<div class="testimoni">
 									<blockquote>
-										<p class="lead">
+										<p class="lead texttesti">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 										</p>
 									</blockquote>
 								</div>
 								<div class="testimoni-author">
-									<a href="#" class="avatar">
-										<img src="http://via.placeholder.com/60x60" class="img-responsive">
-									</a>
 									<h6 style="font-family: 'WorkSans-SemiBold';">Luis
 										<span>Bernal</span>
 									</h6>
@@ -91,15 +82,12 @@
 							<div class="testimoni-wrapp">
 								<div class="testimoni">
 									<blockquote>
-										<p class="lead">
+										<p class="lead texttesti">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 										</p>
 									</blockquote>
 								</div>
 								<div class="testimoni-author">
-									<a href="#" class="avatar">
-										<img src="http://via.placeholder.com/60x60" class="img-responsive">
-									</a>
 									<h6 style="font-family: 'WorkSans-SemiBold';">Neng
 										<span>ebrod</span>
 									</h6>
@@ -111,12 +99,12 @@
 						</div>
 						<!-- End item 4 -->
 
-						<!-- Start item 5 -->
+						<!-- Start item 5 -
 						<div class="item">
 							<div class="testimoni-wrapp">
 								<div class="testimoni">
 									<blockquote>
-										<p class="lead">
+										<p class="lead texttesti">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 										</p>
 									</blockquote>
@@ -134,14 +122,12 @@
 								</div>
 							</div>
 						</div>
-						<!-- End item 5 -->
 
-						<!-- Start item 6 -->
 						<div class="item">
 							<div class="testimoni-wrapp">
 								<div class="testimoni">
 									<blockquote>
-										<p class="lead">
+										<p class="lead texttesti">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 										</p>
 									</blockquote>

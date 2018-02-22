@@ -51,6 +51,7 @@
 				<br><br><br><br><br>
 			<?php
 include ('modulo/modelInteligenciaEmocional.php');
+include 'modulo/contactobtn.php';
 			include ('modulo/footer.php');
 
 		?>

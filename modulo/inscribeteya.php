@@ -159,7 +159,7 @@
 		</div>
 	</div>
 
-<!--version mobil-->
+<!--version movil-->
 <div class="container responform">
 	<div class="row form">
 		<div align="center">

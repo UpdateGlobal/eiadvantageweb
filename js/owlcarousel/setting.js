@@ -28,7 +28,7 @@ $(document).ready(function() {
 				nav: false
 			},
 			1199: {
-				items: 4,
+				items: 3,
 				nav: true,
 				dots: false,
 				loop: true,
@@ -140,7 +140,7 @@ $(document).ready(function() {
 				dots: false,
 			},
 			1199: {
-				items: 4,
+				items: 3,
 				nav: false,
 				dots: false,
 				loop: true,
@@ -177,7 +177,7 @@ $(document).ready(function() {
 				dots: false,
 			},
 			1199: {
-				items: 4,
+				items: 3,
 				nav: true,
 				dots: false,
 				loop: true,
@@ -206,12 +206,12 @@ $(document).ready(function() {
 				nav: false
 			},
 			979: {
-				items: 4,
+				items: 3,
 				dots: false,
 				nav: false
 			},
 			1199: {
-				items: 6,
+				items: 2,
 				nav: true,
 				dots: false,
 				loop: true,
@@ -303,10 +303,10 @@ $(document).ready(function() {
 				items: 4,
 			},
 			979: {
-				items: 4,
+				items: 3,
 			},
 			1199: {
-				items: 4,
+				items: 3,
 
 			}
 		}
@@ -340,7 +340,7 @@ $(document).ready(function() {
 				dots: false,
 			},
 			1199: {
-				items: 4,
+				items: 3,
 				nav: true,
 				dots: false,
 				loop: true,

@@ -47,15 +47,22 @@
 
 <!-- Start contain wrapp -->
 	<div class="contain-wrapp padding-bot30">
+		<br><br><br><br><br><br>	
 		<div class="container">
 			<div class="row margin-mintop80 marginbot60">
+							<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="single-line-heading">
+						<h5>Nuestras Fortalezas</h4>
+					</div>
+				</div>
+			</div>
 				<div class="col-md-12">
 					<ul class="process-puzzle">
 						<li>
 							<div class="puzzle-content default-bg">
 								<span class="numeric">01</span>
 								<div class="puzzle-body">
-									<h5>Fortaleza</h5>
 									<p>
 										Desarrolla la Inteligencia Emocional del Líder para incrementar el Compromiso de su Gente
 									</p>
@@ -66,7 +73,6 @@
 							<div class="puzzle-content primary-bg">
 								<span class="numeric">02</span>
 								<div class="puzzle-body">
-									<h5>Fortaleza</h5>
 									<p>
 										Crea un ambiente positivo para la Gestión del Cambio, tanto de corto como de largo plazo
 										<br><br>
@@ -78,7 +84,6 @@
 							<div class="puzzle-content jaffa-bg">
 								<span class="numeric">03</span>
 								<div class="puzzle-body">
-									<h5>Fortaleza</h5>
 									<p>
 										Mejora sustancialmente el Trabajo en Equipo
 										<br><br><br>
@@ -90,7 +95,6 @@
 							<div class="puzzle-content picton-bg">
 								<span class="numeric">04</span>
 								<div class="puzzle-body">
-									<h5>Fortaleza</h5>
 									<p>
 										Incrementa los Resultados de Ventas
 										<br><br><br>
@@ -102,3 +106,4 @@
 				</div>
 			</div>
 </div>
+<br><br>

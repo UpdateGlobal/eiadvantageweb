@@ -88,7 +88,7 @@ $(document).ready(function() {
 				dots: false
 			},
 			1199: {
-				items: 4,
+				items: 3,
 				nav: true,
 				dots: false,
 				loop: true,

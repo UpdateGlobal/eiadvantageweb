@@ -50,10 +50,10 @@
 			</div>
 				<br><br><br><br><br>
 			<?php
-		include ('modulo/evaluciones.php');
+			include ('modulo/evaluciones.php');
+			include ('modulo/contactobtn.php');
 			include ('modulo/footer.php');
-
-		?>
+			?>
 
 	<!-- Start to top -->
 	<a href="index-corporate-alt1.html#" class="toTop">

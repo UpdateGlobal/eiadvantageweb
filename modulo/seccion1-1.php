@@ -1,19 +1,14 @@
 	<!-- form1-->
 	<div class="content-section-a">
 		<div class="container fadeDown" align="center ">
-			<h1>Advancing   <span>Emotional</strong>   Intelligence</h1>
+			<h1>Desarrollo de  <span>Inteligencia Emocional</strong> en el Trabajo   </h1>
+				  
 				<br/><br />
 			<div class="row">
 				<div class="col-sm-6 animated fadeInLeftBig" align="right">
 					<h3>¿Qué es <span>Inteligencia</span>  Emocional (IE)?</h3>
-					<p>La Inteligencia Emocional consiste en un conjunto de habilidades que define:</p>
-					
-					
-						<p>En qué medida reconocemos y reaccionamos ante las emociones</p>
-						<p>Estas habilidades son la razón de muchos aspectos del éxito en la vida</p>
-				
-				
-					<p>Éstas son las razones por las que se ha definido a la Inteligencia Emocional como el requisito para ser inteligente.</p>
+					<p>La Inteligencia Emocional consiste en un conjunto de habilidades que define: En qué medida reconocemos y reaccionamos ante las emociones,
+						Estas habilidades son la razón de muchos aspectos del éxito en la vida; estas son las razones por las que se ha definido a la Inteligencia Emocional como el requisito para ser inteligente.</p>
 					<br><br>
 					<h3>El Modelo<span>Genos de Inteligencia</span>Emocional</h3>
 					<p>La solución única de Genos combina la Inteligencia Emocional con el Compromiso del

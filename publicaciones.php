@@ -47,6 +47,7 @@
 				<br><br><br><br><br>
 			<?php
 		include ('modulo/publicaciones.php');
+		include 'modulo/contactobtn.php';
 			include ('modulo/footer.php');
 
 		?>

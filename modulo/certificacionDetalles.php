@@ -7,7 +7,14 @@
 	</div>
 	<div class="divider"></div>
 	<p class="lead">Mayor información sobre la Certificación Genos</p>
-	<p class="lead">¡CONOZCA MÁS! <button class="btn"><a href="contacto.php">Aqui</a></button></p>	
+	<br>
+
+</div>
+		<?php
+						include ('modulo/contactobtn.php');
+		?>
+
+<div class="container-fluid container" style="padding-left: 20px;">
 	<div class="divider"></div>
 	<h3>Introducción a la Certificación Genos</h3>
 	<p class="lead" align="justify">Genos ha diseñado su Programa de Certificación en Inteligencia Emocional para asegurar que usted sea una autoridad en el uso de la inteligencia emocional en su entorno de trabajo. Al participar en un Programa de Certificación Genos en Inteligencia Emocional aprenderá con expertos reconocidos internacionalmente que trabajan continuamente con importantes compañías multinacionales. Estos mentores e instructores son lo mejor en su campo trabajan con el objetivo de convertir organizaciones de todo tamaño en el mejor modelo de sí mismas y que puedan lograr.</p>

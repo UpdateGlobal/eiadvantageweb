@@ -1,10 +1,10 @@
 <!-- Start contain wrapp -->
-	<div class="contain-wrapp padding-bot30" style="padding-top: 30px !important; background-color: #f5f0f0;">
+	<div class="contain-wrapp padding-bot30" style="padding-top: 40px !important; padding-bottom: 40px;     background: linear-gradient(to right, #226280 , #15bba4a6);">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="single-line-heading">
-						<h5>Clientes Globales</h5>
+						<h5 style="color: #fff;">Clientes Globales</h5>
 					</div>
 				</div>
 			</div>
@@ -14,119 +14,94 @@
 						<!-- Start item 1 -->
 						<div class="item">
 							<div class="clients-logo">
-								<a href="index.html#" class="logo-current">
-									<img src="img/clients/logo01-gray.png" alt="" />
-								</a>
-								<a href="index.html#" class="logo-hover">
+								<a href="index.html#">
 									<img src="img/clients/logo01.png" alt="" />
 								</a>
 							</div>
 						</div>
 						<!-- End item 1 -->
-
-						<!-- Start item 2 -->
+												<!-- Start item 1 -->
 						<div class="item">
 							<div class="clients-logo">
-								<a href="index.html#" class="logo-current">
-									<img src="img/clients/logo02-gray.png" alt="" />
-								</a>
-								<a href="index.html#" class="logo-hover">
+								<a href="index.html#">
 									<img src="img/clients/logo02.png" alt="" />
 								</a>
 							</div>
 						</div>
-						<!-- End item 2 -->
-
-						<!-- Start item 3 -->
+						<!-- End item 1 -->
+												<!-- Start item 1 -->
 						<div class="item">
 							<div class="clients-logo">
-								<a href="index.html#" class="logo-current">
-									<img src="img/clients/logo03-gray.png" alt="" />
-								</a>
-								<a href="index.html#" class="logo-hover">
+								<a href="index.html#">
 									<img src="img/clients/logo03.png" alt="" />
 								</a>
 							</div>
 						</div>
-						<!-- End item 3 -->
-
-						<!-- Start item 4 -->
+						<!-- End item 1 -->
+												<!-- Start item 1 -->
 						<div class="item">
 							<div class="clients-logo">
-								<a href="index.html#" class="logo-current">
-									<img src="img/clients/logo04-gray.png" alt="" />
-								</a>
-								<a href="index.html#" class="logo-hover">
+								<a href="index.html#">
 									<img src="img/clients/logo04.png" alt="" />
 								</a>
 							</div>
 						</div>
-						<!-- End item 4 -->
-
-						<!-- Start item 5 -->
+						<!-- End item 1 -->
+												<!-- Start item 1 -->
 						<div class="item">
 							<div class="clients-logo">
-								<a href="index.html#" class="logo-current">
-									<img src="img/clients/logo05-gray.png" alt="" />
-								</a>
-								<a href="index.html#" class="logo-hover">
+								<a href="index.html#">
 									<img src="img/clients/logo05.png" alt="" />
 								</a>
 							</div>
 						</div>
-						<!-- End item 5 -->
-
-						<!-- Start item 6 -->
+						<!-- End item 1 -->
+												<!-- Start item 1 -->
 						<div class="item">
 							<div class="clients-logo">
-								<a href="index.html#" class="logo-current">
-									<img src="img/clients/logo06-gray.png" alt="" />
-								</a>
-								<a href="index.html#" class="logo-hover">
+								<a href="index.html#">
 									<img src="img/clients/logo06.png" alt="" />
 								</a>
 							</div>
 						</div>
-						<!-- End item 6 -->
-
-						<!-- Start item 7 -->
+						<!-- End item 1 -->
+												<!-- Start item 1 -->
 						<div class="item">
 							<div class="clients-logo">
-								<a href="index.html#" class="logo-current">
-									<img src="img/clients/logo07-gray.png" alt="" />
-								</a>
-								<a href="index.html#" class="logo-hover">
+								<a href="index.html#">
 									<img src="img/clients/logo07.png" alt="" />
 								</a>
 							</div>
 						</div>
-						<!-- End item 7 -->
-
-						<!-- Start item 8 -->
+						<!-- End item 1 -->
+												<!-- Start item 1 -->
 						<div class="item">
 							<div class="clients-logo">
-								<a href="index.html#" class="logo-current">
-									<img src="img/clients/logo08-gray.png" alt="" />
-								</a>
-								<a href="index.html#" class="logo-hover">
+								<a href="index.html#">
 									<img src="img/clients/logo08.png" alt="" />
 								</a>
 							</div>
 						</div>
-						<!-- End item 8 -->
-
-						<!-- Start item 9 -->
+						<!-- End item 1 -->
+												<!-- Start item 1 -->
 						<div class="item">
 							<div class="clients-logo">
-								<a href="index.html#" class="logo-current">
-									<img src="img/clients/logo09-gray.png" alt="" />
-								</a>
-								<a href="index.html#" class="logo-hover">
+								<a href="index.html#">
 									<img src="img/clients/logo09.png" alt="" />
 								</a>
 							</div>
 						</div>
-						<!-- End item 9 -->
+						<!-- End item 1 -->
+												<!-- Start item 1 -->
+						<div class="item">
+							<div class="clients-logo">
+								<a href="index.html#">
+									<img src="img/clients/logo10.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<!-- End item 1 -->
+
 					</div>
 				</div>
 			</div>

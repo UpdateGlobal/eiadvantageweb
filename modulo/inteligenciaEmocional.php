@@ -2,7 +2,9 @@
 	<br><br>
 	<div class="row">
 		<div class="col-md-12">
+			<div class="row" align="center">
 			<h1>¿Qué es <span>Inteligencia</span> Emocional (IE)?</h1>
+			</div>
 			 <p class="lead">La Inteligencia Emocional consiste en un conjunto de habilidades que define:</p>
 			<ul class="lead">
 				<li>
