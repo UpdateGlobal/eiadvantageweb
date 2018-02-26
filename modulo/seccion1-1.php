@@ -21,9 +21,8 @@
 					
 				</div>
 				<div class="col-sm-6 animated fadeInRightBig" align="center">	
-					<img src="img/world.png">
-					<p>By 2020 Emotional Intelligence will be in the top 10 required job skills</p>	
-					<img src="http://via.placeholder.com/320x320" class="img-responsive">				
+					<img src="img/world.png" class="img-responsive" style="width: 65%; margin-top: 100px;">
+					<p>By 2020 Emotional Intelligence will be <br> In the top 10 required job skills</p>				
 				</div>
 			</div>
 		</div>

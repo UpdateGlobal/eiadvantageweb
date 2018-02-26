@@ -15,7 +15,7 @@
 						<div class="item">
 							<div class="clients-logo">
 								<a href="index.html#">
-									<img src="img/clients/logo01.png" alt="" />
+									<img src="img/clients/a la medida-01.png" alt="" />
 								</a>
 							</div>
 						</div>
@@ -24,7 +24,7 @@
 						<div class="item">
 							<div class="clients-logo">
 								<a href="index.html#">
-									<img src="img/clients/logo02.png" alt="" />
+									<img src="img/clients/a la medida-02.png" alt="" />
 								</a>
 							</div>
 						</div>
@@ -33,7 +33,7 @@
 						<div class="item">
 							<div class="clients-logo">
 								<a href="index.html#">
-									<img src="img/clients/logo03.png" alt="" />
+									<img src="img/clients/a la medida-03.png" alt="" />
 								</a>
 							</div>
 						</div>
@@ -42,7 +42,7 @@
 						<div class="item">
 							<div class="clients-logo">
 								<a href="index.html#">
-									<img src="img/clients/logo04.png" alt="" />
+									<img src="img/clients/a la medida-04.png" alt="" />
 								</a>
 							</div>
 						</div>
@@ -51,7 +51,7 @@
 						<div class="item">
 							<div class="clients-logo">
 								<a href="index.html#">
-									<img src="img/clients/logo05.png" alt="" />
+									<img src="img/clients/a la medida-05.png" alt="" />
 								</a>
 							</div>
 						</div>
@@ -60,7 +60,17 @@
 						<div class="item">
 							<div class="clients-logo">
 								<a href="index.html#">
-									<img src="img/clients/logo06.png" alt="" />
+									<img src="img/clients/a la medida-06.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<!-- End item 1 -->
+			
+												<!-- Start item 1 -->
+						<div class="item">
+							<div class="clients-logo">
+								<a href="index.html#">
+									<img src="img/clients/a la medida-07.png" alt="" />
 								</a>
 							</div>
 						</div>
@@ -69,7 +79,7 @@
 						<div class="item">
 							<div class="clients-logo">
 								<a href="index.html#">
-									<img src="img/clients/logo07.png" alt="" />
+									<img src="img/clients/a la medida-08.png" alt="" />
 								</a>
 							</div>
 						</div>
@@ -78,25 +88,70 @@
 						<div class="item">
 							<div class="clients-logo">
 								<a href="index.html#">
-									<img src="img/clients/logo08.png" alt="" />
+									<img src="img/clients/a la medida-09.png" alt="" />
 								</a>
 							</div>
 						</div>
 						<!-- End item 1 -->
-												<!-- Start item 1 -->
+																		<!-- Start item 1 -->
 						<div class="item">
 							<div class="clients-logo">
 								<a href="index.html#">
-									<img src="img/clients/logo09.png" alt="" />
+									<img src="img/clients/a la medida-10.png" alt="" />
 								</a>
 							</div>
 						</div>
 						<!-- End item 1 -->
-												<!-- Start item 1 -->
+																		<!-- Start item 1 -->
 						<div class="item">
 							<div class="clients-logo">
 								<a href="index.html#">
-									<img src="img/clients/logo10.png" alt="" />
+									<img src="img/clients/a la medida-11.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<!-- End item 1 -->
+																		<!-- Start item 1 -->
+						<div class="item">
+							<div class="clients-logo">
+								<a href="index.html#">
+									<img src="img/clients/a la medida-12.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<!-- End item 1 -->
+																		<!-- Start item 1 -->
+						<div class="item">
+							<div class="clients-logo">
+								<a href="index.html#">
+									<img src="img/clients/a la medida-13.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<!-- End item 1 -->
+																		<!-- Start item 1 -->
+						<div class="item">
+							<div class="clients-logo">
+								<a href="index.html#">
+									<img src="img/clients/a la medida-14.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<!-- End item 1 -->
+																		<!-- Start item 1 -->
+						<div class="item">
+							<div class="clients-logo">
+								<a href="index.html#">
+									<img src="img/clients/a la medida-15.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<!-- End item 1 -->
+																		<!-- Start item 1 -->
+						<div class="item">
+							<div class="clients-logo">
+								<a href="index.html#">
+									<img src="img/clients/a la medida-16.png" alt="" />
 								</a>
 							</div>
 						</div>
