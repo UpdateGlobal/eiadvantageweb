@@ -3,6 +3,7 @@
 		<div align="center">
 			<br><br>
 			<h1>EVALUACIONES DE <span>INTELIGENCIA EMOCIONAL</span></h1>
+			<br>
 		</div>
 		<div class="col-sm-12">
 			<p class="lead text-justify">Las evaluaciones Genos de inteligencia emocional miden las conductas emocionalmente inteligentes en el trabajo que constituyen la base del éxito. Ellas se apoyan en una gran cantidad de investigación, con el respaldo de muchos especialistas, y vienen acompañadas de atractivos informes, de fácil lectura e interpretación, que contienen recomendaciones prácticas de desarrollo.</p>
@@ -19,7 +20,7 @@
 			</ul>
 			<div class="divider"></div>
 			<h3>Evaluaciones Generales de IE en el Trabajo</h3>
-			<div class="divider"></div>
+			<br>
 			<div class="col-sm-6">
 				<h3>Informe Genos de Autoevaluación – Conducta Emocionalmente Inteligente en el Trabajo</h3>
 				<p class="lead text-justify">Esta evaluación está diseñada para talleres, seminarios o trabajadores en contacto con clientes.
@@ -57,7 +58,6 @@
 
 			<div class="divider"></div>
 			<h3>Evaluaciones de IE Aplicadas al Liderazgo</h3>
-			<div class="divider"></div>
 			<div class="col-sm-6">
 				<h3>Informe Genos de Autoevaluación de Liderazgo Emocionalmente Inteligente</h3>
 				<p class="lead text-justify">Este informe está dirigido a gerentes, supervisores y líderes ya establecido o en capacitación.

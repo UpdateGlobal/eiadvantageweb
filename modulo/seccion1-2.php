@@ -75,7 +75,7 @@
 								<div class="puzzle-body">
 									<p>
 										Crea un ambiente positivo para la Gestión del Cambio, tanto de corto como de largo plazo
-										<br><br>
+										
 									</p>
 								</div>
 							</div>
@@ -86,7 +86,7 @@
 								<div class="puzzle-body">
 									<p>
 										Mejora sustancialmente el Trabajo en Equipo
-										<br><br><br>
+										<br><br><br><br>
 									</p>
 								</div>
 							</div>
@@ -97,7 +97,7 @@
 								<div class="puzzle-body">
 									<p>
 										Incrementa los Resultados de Ventas
-										<br><br><br>
+										<br><br><br><br>
 									</p>
 								</div>
 							</div>

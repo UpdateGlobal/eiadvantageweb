@@ -5,30 +5,10 @@
 <html class="no-js" lang="es">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<?php include ('modulo/headerdescripcion.php');?>
-	<meta name="robots" content="index,follow">
-	<!-- Bootstrap Core CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
 
-	<!-- RS5.0 Main Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="css/revolution/settings.css">
 
-	<!-- RS5.0 Layers and Navigation Styles -->
-	<link rel="stylesheet" type="text/css" href="css/revolution/layers.css">
-	<link rel="stylesheet" type="text/css" href="css/revolution/navigation.css">
-
-	<link href="css/style.css" rel="stylesheet">
-
-	<!-- Color -->
-	<link id="skin" href="skins/default.css" rel="stylesheet">
-	<style type="text/css">
-		.lead{
-			text-align: justify;
-		}
-	</style>
 
 </head>
 

@@ -553,11 +553,13 @@ footer h1, footer h2, footer h3, footer h4, footer h5, footer h6{
 
 p{
 	margin-bottom:20px;
+	font-size: 18px;
 
 }
 
 p:last-child{
 	margin-bottom:0;
+	font-size: 18px;
 }
 
 pre{
