@@ -4,7 +4,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 animated fadeInLeftBig">
-					<img src="http://via.placeholder.com/485x320" class="img-responsive">	
+					<img src="img/pic/imagen1.jpg" class="img-responsive" style="width: 485px; height: 320px;">	
 				<style type="text/css">
 					.imgdown{
 						margin-left: 10px;

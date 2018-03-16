@@ -138,7 +138,7 @@
 				</li>
 				<li data-transition="slideremoveright">
 					<!-- MAIN IMAGE -->
-					<img  src="img/pic/imagen5.jpg" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+					<img  src="img/pic/imagen3.jpg" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 					
 					<!-- LAYER NR. 1 -->
 					<div class="tp-caption cap-boxed capUppercase-title" 

@@ -20,6 +20,8 @@
 				Le agradeceremos que nos haga una reseña de su negocio o práctica profesional y nosotros le proporcionaremos una visión panorámica de los productos, programas y soluciones que podemos proporcionarle para reforzar y ampliar sus actividades. Podemos proporcionarle muestras y ejemplos, hacer demostraciones, y comentarle los logros que han alcanzado nuestros Partners en el mundo entero trabajando con nosotros.
 			</p>
 
+
+<img src="img/pic/imagen5.jpg" class="img-responsive" style="width: 400px; height: 800px;">
 			<div class="divider"></div>
 
 			<h3>Los Beneficios de EI-ADVANTAGE</h3>
