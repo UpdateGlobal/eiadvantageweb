@@ -13,7 +13,7 @@
 				Como puede verse en el siguiente gráfico y como quedó demostrado en años de investigación, los centros de trabajo de alto desempeño pueden ser consecuencia del compromiso a gran escala de los trabajadores y esto es más común en aquellos lugares que permiten que la gente disfrute un nivel más alto de emociones positivas.
 				</p>
 				<div class="row container" align="center">
-					<img src="img/imge.png" class="img-responsive">
+					<img src="img/conten/09-Graficoestucio.png" class="img-responsive">
 					<p>Referencia: HPWs  – Centros de Trabajo de Alto Desempeño; LPWs – Centros de Trabajo de Bajo Desempeño; C. Boedker y otros (2011) Cultura de liderazgo y prácticas gerenciales de centros de trabajo de alto desempeño en Australia: El índice de centros de trabajo de alto desempeño</p>
 				</div>
 				<p class="lead text-justify">Genos sugirió que las indicaciones observacionales que muestran la correlación entre la inteligencia emocional de un líder y el compromiso de los trabajadores ayudaría a reforzar la noción de las organizaciones de que éste era, en efecto, el aspecto gerencial más importante (percepción, entendimiento y el control de las emociones) y ayudaría a promover personal de alto desempeño, en donde la gente se compromete con su trabajo y experimenta experiencias emocionales positivas en su centro de trabajo.</p>
@@ -50,7 +50,7 @@
 				<h5>Conclusiones</h5>
 				<p class="lead text-justify">Toda nuestra investigación y evaluaciones revelaron que existe ciertamente una sólida relación entre el nivel de inteligencia emocional de cada uno de los líderes y el compromiso de sus respectivos trabajadores. Estudiando el siguiente gráfico puede ver que cada punto representa el resultado de la evaluación de compromiso de los trabajadores. En el eje X del gráfico se indica la puntuación de la inteligencia emocional de los líderes (percentil): puntuaciones en el rango 1-39 se consideraron muy bajas, 40-59 representaba una puntuación media y se consideró muy alta cualquier puntuación arriba de 60.</p>
 					<div class="row container" align="center">
-						<img src="img/imge2.png" class="img-responsive">
+						<img src="img/conten/10-Graaficoestudio2.png" class="img-responsive">
 					</div>
 				<p class="lead text-justify">
 				Como se demostró en el gráfico, es claro ver que los niveles de compromiso de los trabajadores varían significativamente (desvinculado, no comprometido y comprometido), cuando el líder respectivo muestra una inteligencia emocional baja o media. Habitualmente esperaríamos ver estas puntuaciones en organizaciones con un desempeño bajo o medio en términos de resultados económicos. Por el contrario, cuando vemos que se muestran altos niveles de inteligencia emocional, (encima de 75%), puede esperarse ver resultados muy altos de compromiso de los trabajadores, que son típicos en empleados que trabajan en compañías exitosas, con un alto desempeño.<br>
@@ -58,47 +58,6 @@
 				Las investigaciones de Gallup han demostrado con mucha claridad que las compañías con un alto nivel de compromiso o casi total compromiso obtienen ganancias hasta 3.9 veces mayores que las organizaciones que muestran resultados más bajos o más inconsistentes.
 				</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-		
-
-
-
-				<!-- Go to www.addthis.com/dashboard to customize your tools -->
-				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a392b411b1ea275"></script>
-
-				<!-- Vaya a www.addthis.com/dashboard para personalizar sus herramientas --> 
-				<div class = "addthis_inline_share_toolbox"> </div>
-				<br>
-
-						
-			
 
 
 		</div>

@@ -15,7 +15,7 @@
 <button>
 	<a href="https://drive.google.com/file/d/1UoLueKMnd4MzDlIWmSKfUSMbQMIWMwcv/view?usp=sharing" target="new">Descargar pdf</a>
 </button><br><br>
-<img src="http://via.placeholder.com/320x320">
+<img src="img/pic/imagen2.jpg" class="img-responsive" style="width: 70%;">
 		</div>
 		<div class="col-sm-6">
 			<p class="lead"><h3>Manual Técnico Genos de Inteligencia Emocional
@@ -28,4 +28,5 @@
 	</div>
 	
 </div>
-<nr><br>
+<br>
+

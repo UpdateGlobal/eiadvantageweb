@@ -234,6 +234,14 @@
 		</form>
 </div>
 
+
+<?php
+
+include ('modulo/contactobtn.php');
+
+?>
+
+
 <script type="text/javascript">
 	$(".placeholder-input").on("blur", function() {  $(this).toggleClass("not-empty", !!$(this).val());});
 </script>

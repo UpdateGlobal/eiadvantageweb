@@ -12,7 +12,7 @@
 			<h5>Inteligencia emocional</h5>
 			<p class="lead" align="justify">La Inteligencia Emocional (IE) involucra un conjunto de habilidades que nos ayudan a percibir, entender, expresar, razonar con las emociones y controlarlas, tanto dentro de nosotros mismos como en los demás. Podemos aplicar estas habilidades para ayudarnos s ser más conscientes nuestros propios sentimientos y de los demás y también más conscientes de la influencia que las emociones ejercen sobre nuestras decisiones, conducta y desempeño. A su vez, esto nos ayuda a minimizar la influencia improductiva que las emociones pueden tener y maximizar sus cualidades productivas.</p>
 			<div align="center">
-				<img src="img/rueda1212.png" class="img-responsive">
+				<img src="img/conten/modelogenosgeneral.png" class="img-responsive">
 			</div>
 			<p class="lead" align="justify">Las competencias del modelo nos ayudan a demostrar consistentemente que estamos en los estados productivos del anillo exterior del modelo, a diferencia de los estados improductivos (anillo blanco interno), en el que todos a veces podemos caer.</p>
 <div class="icon-box-left">

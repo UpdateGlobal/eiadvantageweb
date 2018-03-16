@@ -37,6 +37,7 @@
 			<br>
 			<?php
 			include ('modulo/aboutGenosInternacional.php');
+			include ('modulo/contactobtn.php');
 			include ('modulo/footer.php');
 		?>
 

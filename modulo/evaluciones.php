@@ -21,6 +21,12 @@
 			<div class="divider"></div>
 			<h3>Evaluaciones Generales de IE en el Trabajo</h3>
 			<br>
+
+
+			<div class="col-sm-6" align="right">
+				
+				<img src="img/conten/03-Evaluación-General-Autoevaluación.png" class="img-responsive">
+			</div>
 			<div class="col-sm-6">
 				<h3>Informe Genos de Autoevaluación – Conducta Emocionalmente Inteligente en el Trabajo</h3>
 				<p class="lead text-justify">Esta evaluación está diseñada para talleres, seminarios o trabajadores en contacto con clientes.
@@ -33,18 +39,29 @@
 						<li>Al final de la evaluación, se provee una guía para que los usuarios entiendan sus resultados y pidan feedback a sus colegas.</li>
 					</ul>
 			</div>
-			<div class="col-sm-6">
-				<h3>Informe de Feedback Genos 180º – Conducta Emocionalmente Inteligente en el Trabajo</h3>
-				<p class="lead text-justify">En esta evaluación mostramos qué tan eficientemente una persona exhibe inteligencia emocional en el trabajo. El informe también cubre la importancia que le dan sus colegas de trabajo a la inteligencia emocional y por qué es relevante. Igualmente, incluye comentarios libres de los observadores.<br>
-				Puntos clave:
-				</p>
-					<ul style="padding-left: 20px;" class="lead">
-						<li>Resultados confiables, que se extraen de las fuentes más cercanas a la persona en cuestión.</li>
-						<li>Toda la información se obtiene de un grupo de colegas del trabajo. Genos recomienda entre 3 y 6 personas para obtener resultados óptimos balanceados. Todos los resultados se presentan en categorías con una sola calificación promedio.</li>
-						<li>Métodos confiables para medir áreas de fortalezas en una persona y precisar las áreas de desarrollo.</li>
-					</ul>
 			</div>
-			<div class="col-sm-12">
+			<div class="divider"></div>
+			<div class="col-sm-6" align="right">
+				<img src="img/conten/04-Evaluación-General-180.png" class="img-responsive">
+			</div>
+				<div class="col-sm-6">
+					<h3>Informe de Feedback Genos 180º – Conducta Emocionalmente Inteligente en el Trabajo</h3>
+					<p class="lead text-justify">En esta evaluación mostramos qué tan eficientemente una persona exhibe inteligencia emocional en el trabajo. El informe también cubre la importancia que le dan sus colegas de trabajo a la inteligencia emocional y por qué es relevante. Igualmente, incluye comentarios libres de los observadores.<br>
+					Puntos clave:
+					</p>
+						<ul style="padding-left: 20px;" class="lead">
+							<li>Resultados confiables, que se extraen de las fuentes más cercanas a la persona en cuestión.</li>
+							<li>Toda la información se obtiene de un grupo de colegas del trabajo. Genos recomienda entre 3 y 6 personas para obtener resultados óptimos balanceados. Todos los resultados se presentan en categorías con una sola calificación promedio.</li>
+							<li>Métodos confiables para medir áreas de fortalezas en una persona y precisar las áreas de desarrollo.</li>
+						</ul>
+				</div>
+			</div>
+			<div class="divider"></div>
+			<div class="col-sm-6" align="right">
+				
+				<img src="img/conten/05-Evaluación-General-360.png" class="img-responsive">	
+			</div>
+			<div class="col-sm-6">
 				<h3>Informe de Feedback Genos 360º – Conducta Emocionalmente Inteligente en el Trabajo</h3>
 				<p class="lead text-justify">Nuestro informe en profundidad detalla en qué medida las personas exhiben inteligencia emocional en el trabajo y qué tan importantes son esas conductas para los demás en su entorno laboral. El informe también incluye comentarios subjetivos emitidos por los observadores elegidos.<br>
 				Puntos clave:
@@ -55,12 +72,17 @@
 					<li>Para aquellos que desean tomar acción sobre los resultados de su informe, se provee una valiosa guía de percepciones y hallazgos.</li>
 				</ul>
 			</div>
-
 			<div class="divider"></div>
-			<h3>Evaluaciones de IE Aplicadas al Liderazgo</h3>
+
+		<div class="row">
+
+			<div class="col-sm-6" align="right">
+				
+				<img src="img/conten/06-Evaluación-Liderazgo-Autoevaluación.png" class="img-responsive">
+			</div>
 			<div class="col-sm-6">
-				<h3>Informe Genos de Autoevaluación de Liderazgo Emocionalmente Inteligente</h3>
-				<p class="lead text-justify">Este informe está dirigido a gerentes, supervisores y líderes ya establecido o en capacitación.
+					<h3>Informe Genos de Autoevaluación de Liderazgo Emocionalmente Inteligente</h3>
+					<p class="lead text-justify">Este informe está dirigido a gerentes, supervisores y líderes ya establecido o en capacitación.
 				Puntos clave:<br>
 				</p>
 				<ul style="padding-left: 20px;" class="lead">
@@ -68,7 +90,13 @@
 					<li>Nuestra metodología específicamente diseñada permite que los líderes midan hasta qué punto exhiben y demuestran eficientemente inteligencia emocional en el trabajo.</li>
 					<li>Se provee un informe de feedback con una guía de desarrollo para líderes y es perfecta para personas deseosas de impulsar su carrera y que quieren usarlo para investigar y profundizar con talleres o grupos más grandes.</li>
 				</ul>
-				
+			</div>
+		</div>
+	<div class="divider"></div>
+		<div class="row">
+			<div class="col-sm-6" align="right">
+		
+				<img src="img/conten/07-Evaluación-Liderazgo-180.png" class="img-responsive">
 			</div>
 			<div class="col-sm-6">
 				<h3>Informe Genos 180º de Feedback de Liderazgo Emocionalmente Inteligente</h3>
@@ -81,20 +109,32 @@
 					<li>Los observadores seleccionados pueden emitir respuestas libres, por escrito, para cada categoría, que luego se incluyen en el informe de feedback. Estos elementos escritos son esenciales para entender las respuestas de los observadores a ciertas preguntas de la encuesta.</li>
 					<li>Se proveen recomendaciones de desarrollo con la evaluación de cada categoría.</li>
 				</ul>
-				
 			</div>
-		   <div class="col-sm-12">
-		   	<h3>Informe Genos 360º de Feedback de Liderazgo Emocionalmente Inteligente</h3>
-		   	<p class="lead text-justify">Este informe en particular se diseñó teniendo en mente a gerentes de nivel medio a sénior.
-			Puntos clave:<br>
+		</div>
+		<div class="divider"></div>
+		<div class="row">
+			<div class="col-sm-6" align="right">
+				
+				<img src="img/conten/08-Evaluación-Liderazgo-360.png" class="img-responsive">
+			</div>
+			<div class="col-sm-6">
+				<h3>Informe Genos 360º de Feedback de Liderazgo Emocionalmente Inteligente</h3>
+ 				<p class="lead text-justify">Este informe en particular se diseñó teniendo en mente a gerentes de nivel medio a sénior.
+				Puntos clave:<br>
 			</p>
-		   	<ul style="padding-left: 20px;" class="lead">
-		   		<li>Categorías hechas a la medida para encajar con el lenguaje propio de su grupo. Nuestro informe puede recopilar información de múltiples grupos dentro de su organización, incluyendo entre otros Partners, Directores, Clientes, Colegas y Asociados.</li>
-		   		<li>Los resultados medidos identifican brechas y competencias en cada categoría evaluada. Esto permite que la persona evaluada reconozca rápidamente sus áreas por mejorar.</li>
-		   		<li>Permite que cada observador respuestas propias de feedback, en conjunción con la categoría evaluada.</li>
-		   		<li>Provee recomendaciones de desarrollo de manera estándar en cada categoría.</li>
-		   	</ul>
-		   </div>
+	  			<ul style="padding-left: 20px;" class="lead">
+			   		<li>Categorías hechas a la medida para encajar con el lenguaje propio de su grupo. Nuestro informe puede recopilar información de múltiples grupos dentro de su organización, incluyendo entre otros Partners, Directores, Clientes, Colegas y Asociados.</li>
+			   		<li>Los resultados medidos identifican brechas y competencias en cada categoría evaluada. Esto permite que la persona evaluada reconozca rápidamente sus áreas por mejorar.</li>
+			   		<li>Permite que cada observador respuestas propias de feedback, en conjunción con la categoría evaluada.</li>
+			   		<li>Provee recomendaciones de desarrollo de manera estándar en cada categoría.</li>
+			   	</ul>
+			</div>
+		</div>
+
+
+
+
+		
 		</div>
 	</div>
 </div>

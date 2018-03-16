@@ -89,7 +89,7 @@
 
 
 					<li>
-						<a href="casoEstudio.php">Caso de Estudio</a>
+						<a href="casoEstudio.php">Estudio de Caso</a>
 					</li>
 
 					<li>

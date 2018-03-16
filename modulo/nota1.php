@@ -88,13 +88,6 @@
 				<blockquote class=" lead text-justify">“El programa Genos nos ayudó a darnos cuenta que podemos tener la solución técnica correcta, pero, a menos que inspiremos a la gente a que ayude a aplicarla, la solución es inservible. Las habilidades que adquirimos con el programa Genos quedarán con nosotros para siempre y serán útiles no sólo en otros proyectos de cambio que impulsemos, sino también fuera del trabajo, en nuestra vida privada.</blockquote>
 
 
-				<!-- Go to www.addthis.com/dashboard to customize your tools -->
-				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a392b411b1ea275"></script>
-
-				<!-- Vaya a www.addthis.com/dashboard para personalizar sus herramientas --> 
-				<div class = "addthis_inline_share_toolbox"> </div>
-				<br>
-
 						
 			
 

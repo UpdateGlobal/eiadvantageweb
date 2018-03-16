@@ -41,11 +41,4 @@
 		<li>Servicio al Cliente</li>
 		<li>Productividad</li>
 	</ul>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12" style="padding-left: 70px; padding-bottom: 70px;">
-				<a href="programas.php">Ver Mas</a>
-			</div>
-		</div>
-	</div>
 </div>

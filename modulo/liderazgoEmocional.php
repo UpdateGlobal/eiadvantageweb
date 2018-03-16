@@ -9,7 +9,7 @@
 			<h5>El modelo Genos de competencias de liderazgo emocionalmente inteligente</h5>
 			<p class="lead" align="justify"> Entonces, ¿cómo se ve la inteligencia emocional cuando se aplica al liderazgo? Las competencias de liderazgo emocionalmente inteligentes reflejan lo que hacen los líderes con su inteligencia emocional en el liderazgo de las personas. El modelo Genos de competencias de liderazgo emocionalmente inteligentes se muestra a continuación.</p>
 			<div align="center">
-				<img src="img/rueda1313.png" class="img-responsive">
+				<img src="img/conten/modeloliderazgo.png" class="img-responsive">
 			</div>
 
 

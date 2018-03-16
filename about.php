@@ -36,6 +36,7 @@
 			<br>
 			<?php
 			include ('modulo/aboutSeccion.php');
+			include ('modulo/contactobtn.php');
 			include ('modulo/footer.php');
 		    ?>
 

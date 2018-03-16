@@ -13,7 +13,7 @@
 			<ul> 
 				<li data-transition="slideremoveright">
 					<!-- MAIN IMAGE -->
-					<img src="http://via.placeholder.com/1410x580"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+					<img src="img/pic/imagen7.jpg" style="height: 400px;" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 					
 			
 					
@@ -78,7 +78,7 @@
 				<!---->
 				<li data-transition="slideremoveright">
 					<!-- MAIN IMAGE -->
-					<img src="http://via.placeholder.com/1024x580"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+					<img src="img/pic/imagen6.jpg" style="height: 600px;" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 					
 					<!-- LAYER NR. 1 -->
 					<div class="tp-caption cap-boxed capUppercase-title" 
@@ -138,7 +138,7 @@
 				</li>
 				<li data-transition="slideremoveright">
 					<!-- MAIN IMAGE -->
-					<img src="http://via.placeholder.com/1024x580"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+					<img  src="img/pic/imagen5.jpg" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 					
 					<!-- LAYER NR. 1 -->
 					<div class="tp-caption cap-boxed capUppercase-title" 
