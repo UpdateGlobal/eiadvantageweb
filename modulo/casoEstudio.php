@@ -15,7 +15,7 @@
 		</div>
 		<div class="col-sm-4">
 			<div class="thumbnail">
-				<img src="img/pic/imagen8.jpg" class="img-responsive" style="width: 360px; height: 240px;" />
+				<img src="img/pic/imagen9.jpg" class="img-responsive" style="width: 360px; height: 240px;" />
 				<div class="content">
 					<h4>Genos aumenta los ingresos por ventas de Sanofi-Aventis</h4>
 					<p>Este estudio de caso explora cómo Genos International ayudó a incrementar en 13% las ventas en el gigante farmacéutico Sanofi-Aventis, a través del incremento de la inteligencia emocional.</p>

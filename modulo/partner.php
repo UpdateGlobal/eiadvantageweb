@@ -21,7 +21,7 @@
 			</p>
 
 
-<img src="img/pic/imagen5.jpg" class="img-responsive" style="width: 400px; height: 800px;">
+<img src="img/pic/imagen5.jpg" class="img-responsive" style="width: 1150px; height: 400px;">
 			<div class="divider"></div>
 
 			<h3>Los Beneficios de EI-ADVANTAGE</h3>
