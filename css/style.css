@@ -3789,6 +3789,8 @@ Process
 	background-color:#3b3e4e;
 	padding:50px 30px 30px 40px;
 	border-radius:8px;
+	height: 200px;
+    box-sizing: border-box;
 }
 
 .puzzle-content .puzzle-body{

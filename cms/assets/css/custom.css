@@ -330,7 +330,15 @@ label span {
     background-color: #03c4cc;
 }
 
+.alert-black {
+    color: #3b3e4e;
+    background-color: #c1c1c1;
+}
 
+.alert-red {
+    color: #3b3e4e;
+    background-color: #c1c1c1;
+}
 
 @media only screen and (max-width:1199px){
 

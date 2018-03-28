@@ -118,14 +118,14 @@ if ($eliminar == "true") {
                         $resultadoTestimonio = mysqli_query($enlaces,$consultarTestimonio) or die('Consulta fallida: ' . mysqli_error($enlaces));
                         while($filaTes = mysqli_fetch_array($resultadoTestimonio)){
                           $xCodigo    = $filaTes['cod_testimonio'];
-                          $xNombre    = $filaTes['autor'];
-                          $xAutor     = $filaTes['cargo'];
+                          $xAutor     = $filaTes['autor'];
+                          $xCargo     = $filaTes['cargo'];
                           $xOrden     = $filaTes['orden'];
                           $xEstado    = $filaTes['estado'];
                       ?>
                       <tr>
-                        <td><?php echo $xNombre; ?></td>
                         <td><?php echo $xAutor; ?></td>
+                        <td><?php echo $xCargo; ?></td>
                         <td><?php echo $xOrden; ?></td>
                         <td><strong>
                           <?php if($xEstado=="1"){ echo "[Activo]"; }else{ echo "[Inactivo]"; } ?>

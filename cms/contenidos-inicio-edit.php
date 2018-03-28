@@ -14,12 +14,18 @@ if($cod_contenido==0){
     $ejecutarCon = mysqli_query($enlaces,$consultaCon) or die('Consulta fallida: ' . mysqli_error($enlaces));
     $filaCon = mysqli_fetch_array($ejecutarCon);
     $cod_contenido = $filaCon['cod_contenido'];
-    $contenido_1   = htmlspecialchars($filaCon['contenido_1']);
+    $contenido_1   = $filaCon['contenido_1'];
+    $contenido_2   = $filaCon['contenido_2'];
+    $contenido_3   = $filaCon['contenido_3'];
+    $contenido_4   = $filaCon['contenido_4'];
   }
   if($proceso == "Actualizar"){
     $cod_contenido = $_POST['cod_contenido'];
     $contenido_1   = mysqli_real_escape_string($enlaces, $_POST['contenido_1']);
-    $ActualizarCon = "UPDATE contenidos_inicio SET cod_contenido='$cod_contenido', contenido_1='$contenido_1' WHERE cod_contenido='$cod_contenido'";
+    $contenido_2   = mysqli_real_escape_string($enlaces, $_POST['contenido_2']);
+    $contenido_3   = mysqli_real_escape_string($enlaces, $_POST['contenido_3']);
+    $contenido_4   = mysqli_real_escape_string($enlaces, $_POST['contenido_4']);
+    $ActualizarCon = "UPDATE contenidos_inicio SET cod_contenido='$cod_contenido', contenido_1='$contenido_1', contenido_2='$contenido_2', contenido_3='$contenido_3', contenido_4='$contenido_4' WHERE cod_contenido='$cod_contenido'";
     $resultadoActualizar = mysqli_query($enlaces,$ActualizarCon) or die('Consulta fallida: ' . mysqli_error($enlaces));
     header("Location:contenidos-inicio.php");
   }
@@ -149,11 +155,48 @@ if($cod_contenido==3){
               <?php if($cod_contenido==0){ ?>
               <div class="form-group row">
                 <div class="col-4 col-lg-2">
-                  <label class="col-form-label" for="contenido_1">T&iacute;tulo:</label>
+                  <label class="col-form-label" for="contenido_1">Valor 01:</label><br>
+                  <small>(Cuadro Negro)</small>
                 </div>
                 <div class="col-8 col-lg-10">
                   <?php if($xVisitante=="1"){ ?><p><?php echo $contenido_1; ?></p><?php } ?>
                   <input class="form-control" type="text" id="contenido_1" name="contenido_1" type="<?php if($xVisitante=="1"){ ?>hidden<?php }else{ ?>text<?php } ?>" value="<?php echo $contenido_1; ?>">
+                  <div class="invalid-feedback"></div>
+                </div>
+              </div>
+              
+              <div class="form-group row">
+                <div class="col-4 col-lg-2">
+                  <label class="col-form-label" for="contenido_2">Valor 02:</label><br>
+                  <small>(Cuadro Azul)</small>
+                </div>
+                <div class="col-8 col-lg-10">
+                  <?php if($xVisitante=="1"){ ?><p><?php echo $contenido_2; ?></p><?php } ?>
+                  <input class="form-control" type="text" id="contenido_2" name="contenido_2" type="<?php if($xVisitante=="1"){ ?>hidden<?php }else{ ?>text<?php } ?>" value="<?php echo $contenido_2; ?>">
+                  <div class="invalid-feedback"></div>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-4 col-lg-2">
+                  <label class="col-form-label" for="contenido_3">Valor 03:</label><br>
+                  <small>(Cuadro Naranja)</small>
+                </div>
+                <div class="col-8 col-lg-10">
+                  <?php if($xVisitante=="1"){ ?><p><?php echo $contenido_3; ?></p><?php } ?>
+                  <input class="form-control" type="text" id="contenido_3" name="contenido_3" type="<?php if($xVisitante=="1"){ ?>hidden<?php }else{ ?>text<?php } ?>" value="<?php echo $contenido_3; ?>">
+                  <div class="invalid-feedback"></div>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-4 col-lg-2">
+                  <label class="col-form-label" for="contenido_4">Valor 04:</label><br>
+                  <small>(Cuadro Celeste)</small>
+                </div>
+                <div class="col-8 col-lg-10">
+                  <?php if($xVisitante=="1"){ ?><p><?php echo $contenido_4; ?></p><?php } ?>
+                  <input class="form-control" type="text" id="contenido_4" name="contenido_4" type="<?php if($xVisitante=="1"){ ?>hidden<?php }else{ ?>text<?php } ?>" value="<?php echo $contenido_4; ?>">
                   <div class="invalid-feedback"></div>
                 </div>
               </div>
@@ -176,10 +219,10 @@ if($cod_contenido==3){
                 </div>
                 <div class="col-8 col-lg-10">
                   <?php if($xVisitante=="1"){ ?><p><?php echo $contenido_3; ?></p><?php } ?>
-                  <textarea name="contenido_3" data-provide="summernote" data-min-height="150" <?php if($xVisitante=="1"){ ?> style="display:none;" <?php }else{ ?> <?php } ?> ><?php echo $contenido_3; ?></textarea>
+                  <textarea name="contenido_3" data-provide="summernote" data-toolbar="full" data-min-height="150" <?php if($xVisitante=="1"){ ?> style="display:none;" <?php }else{ ?> <?php } ?> ><?php echo $contenido_3; ?></textarea>
                 </div>
               </div>
-              
+
               <div class="form-group row">
                 <div class="col-4 col-lg-2">
                   <label class="col-form-label" for="imagen">Imagen:</label><br>
@@ -238,7 +281,7 @@ if($cod_contenido==3){
                 </div>
                 <div class="col-8 col-lg-10">
                   <?php if($xVisitante=="1"){ ?><p><?php echo $contenido_3; ?></p><?php } ?>
-                  <textarea name="contenido_3" data-provide="summernote" data-min-height="150" <?php if($xVisitante=="1"){ ?> style="display:none;" <?php }else{ ?> <?php } ?> ><?php echo $contenido_3; ?></textarea>
+                  <textarea name="contenido_3" data-provide="summernote" data-toolbar="full" data-min-height="150" <?php if($xVisitante=="1"){ ?> style="display:none;" <?php }else{ ?> <?php } ?> ><?php echo $contenido_3; ?></textarea>
                 </div>
               </div>
               
@@ -294,7 +337,7 @@ if($cod_contenido==3){
                 </div>
                 <div class="col-8 col-lg-10">
                   <?php if($xVisitante=="1"){ ?><p><?php echo $contenido_2; ?></p><?php } ?>
-                  <textarea name="contenido_2" data-provide="summernote" data-min-height="100" <?php if($xVisitante=="1"){ ?> style="display:none;" <?php }else{ ?> <?php } ?> ><?php echo $contenido_2; ?></textarea>
+                  <textarea name="contenido_2" data-provide="summernote" data-toolbar="full" data-min-height="100" <?php if($xVisitante=="1"){ ?> style="display:none;" <?php }else{ ?> <?php } ?> ><?php echo $contenido_2; ?></textarea>
                 </div>
               </div>
 
@@ -304,7 +347,7 @@ if($cod_contenido==3){
                 </div>
                 <div class="col-8 col-lg-10">
                   <?php if($xVisitante=="1"){ ?><p><?php echo $contenido_3; ?></p><?php } ?>
-                  <textarea name="contenido_3" data-provide="summernote" data-min-height="150" <?php if($xVisitante=="1"){ ?> style="display:none;" <?php }else{ ?> <?php } ?> ><?php echo $contenido_3; ?></textarea>
+                  <textarea name="contenido_3" data-provide="summernote" data-toolbar="full" data-min-height="150" <?php if($xVisitante=="1"){ ?> style="display:none;" <?php }else{ ?> <?php } ?> ><?php echo $contenido_3; ?></textarea>
                 </div>
               </div>
               

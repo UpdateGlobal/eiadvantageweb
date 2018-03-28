@@ -20,7 +20,7 @@
     <?php include("module/header.php"); ?>
     <!-- Main container -->
     <main>
-      <header class="header bg-ui-general">
+      <header class="header bg-ui-general"> 
         <div class="header-info">
           <h1 class="header-title">
             <strong>Nosotros</strong>

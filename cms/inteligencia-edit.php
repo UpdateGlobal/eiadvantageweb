@@ -23,7 +23,7 @@ if($proceso=="Actualizar"){
   $titulo             = mysqli_real_escape_string($enlaces, $_POST['titulo']);
   $descripcion        = mysqli_real_escape_string($enlaces, $_POST['descripcion']);
   if(isset($_POST['contacto'])){$contacto = $_POST['contacto'];}else{$contacto = 0;}
-    
+
   $actualizarInteligencia = "UPDATE inteligencia SET cod_inteligencia='$cod_inteligencia', titulo='$titulo', descripcion='$descripcion', contacto='$contacto' WHERE cod_inteligencia='$cod_inteligencia'";
   $resultadoActualizar = mysqli_query($enlaces,$actualizarInteligencia);
   header("Location:inteligencia.php");

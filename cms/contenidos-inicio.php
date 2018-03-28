@@ -125,7 +125,7 @@
                       $xEstado      = $filaConini['estado'];
                   ?>
                   <div class="col-12 col-lg-3">
-                    <div class="alert alert-success" role="alert">
+                    <div class="alert alert-black" role="alert">
                       <p><?php 
                         $strCut = substr($xContenido1,0,50);
                         $xContenido1 = substr($strCut,0,strrpos($strCut, ' ')).'...';
@@ -143,7 +143,7 @@
                     </div>
                   </div>
                   <div class="col-12 col-lg-3">
-                    <div class="alert alert-warning" role="alert">
+                    <div class="alert alert-red" role="alert">
                       <p><?php 
                         $strCut = substr($xContenido3,0,50);
                         $xContenido3 = substr($strCut,0,strrpos($strCut, ' ')).'...';

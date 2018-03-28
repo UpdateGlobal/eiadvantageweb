@@ -42,10 +42,7 @@ if($proceso == "Actualizar"){
   if(isset($_POST['estado'])){$estado = $_POST['estado'];}else{$estado = 0;}
   $insertarNosotros = "UPDATE nosotros SET cod_nosotros='$cod_nosotros', titulo='$titulo', slug='$slug', texto_menu='$texto_menu', descripcion='$descripcion', contacto='$contacto', orden='$orden', estado='$estado' WHERE cod_nosotros='$cod_nosotros'";
   $resultadoInsertar = mysqli_query($enlaces,$insertarNosotros);
-  $mensaje = "<div class='alert alert-success' role='alert'>
-          <button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>
-          <strong>Nota:</strong> Se public&oacute; la nueva secci&oacute;n exitosamente. <a href='nosotros.php'>Ir a Nosotros</a>
-        </div>";
+  header("Location:nosotros.php");
 }
 ?>
 <!DOCTYPE html>
@@ -103,7 +100,7 @@ if($proceso == "Actualizar"){
           <h4 class="card-title"><strong>Nosotros Nuevo</strong></h4>
           <form class="fcms" name="fcms" method="post" action="" data-provide="validation" data-disable="false">
             <div class="card-body">
-              <?php if(isset($mensaje)){ echo $mensaje; } else {}; ?>
+              
               <div class="form-group row">
                 <div class="col-4 col-lg-2">
                   <label class="col-form-label required" for="titulo">T&iacute;tulo:</label>
@@ -162,7 +159,7 @@ if($proceso == "Actualizar"){
 
             <footer class="card-footer">
               <a href="nosotros.php" class="btn btn-secondary"><i class="fa fa-times"></i> Cancelar</a>
-              <button class="btn btn-bold btn-primary" type="button" name="boton" onClick="javascript:Validar();" /><i class="fa fa-chevron-circle-right"></i> Guardar Cambios</button>
+              <button class="btn btn-bold btn-primary" type="button" name="boton" onClick="javascript:Validar();" /><i class="fa fa-refresh"></i> Guardar Cambios</button>
               <input type="hidden" name="cod_nosotros" value="<?php echo $cod_nosotros; ?>">
               <input type="hidden" name="proceso">
             </footer>
