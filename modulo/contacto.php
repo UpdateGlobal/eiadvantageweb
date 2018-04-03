@@ -1,4 +1,3 @@
-
 <style type="text/css">
 .form {
   width: 100%;
@@ -52,7 +51,6 @@
 }
 .form .field .placeholder-input:focus + .placeholder-label:after, .form .field .placeholder-input.not-empty + .placeholder-label:after {
   opacity: 1;
-
 }
 .explanation {
   width: 500px;
@@ -61,214 +59,194 @@
   text-align: center;
 }
 @media only screen and (min-width: 720px) {
-.responform {
-	display: none;	 !important;
- }
+	.responform {
+		display: none !important;
+ 	}
 }
 @media only screen and (max-width: 720px) {
-.responform2 {
-	display: none;	 !important;
- }
+	.responform2 {
+		display: none !important;
+ 	}
 }
 </style>
-	<div class="container responform2">
-		<br><br>
-		<div class="row">
-			<div align="center">
+<div class="container responform2">
+	<br><br>
+	<div class="row">
+		<div align="center">
 			<h1><span>Contactanos</span></h1>
-			</div>
-			<div class="col-sm-8">
-				<form>
-					<div class="form-group col-xs-6 col-sm-6">
-						<label>Nombre(s)</label>
-						<input type="text" class="form-control" id="" name="" alt="" required >
-					</div>
-					<div class="form-group col-xs-6 col-sm-6">
-						<label>Apellido(s)</label>
-						<input type="text" class="form-control" id="" name="" alt="" required />
-					</div>
-					<div class="form-group col-xs-6 col-sm-6">
-						<label>Cargo/Titulo/Rol</label>
-						<input type="text" class="form-control" id="" name="" alt="" required  />
-					</div>
-					<div class="form-group col-xs-6 col-sm-6">
-						<label>Organización</label>
-						<input type="text" class="form-control" id="" name="" alt="" required  />
-					</div>
-					<div class="form-group col-xs-12">
-						<label>Dirección:</label>
-						<input type="text" class="form-control" id="" name="" alt="" required  />
-					</div>
-					<div class="form-group col-xs-4">
-						<label>Ciudad</label>
-						<input type="text" class="form-control" id="" name="" alt="" required  />
-					</div>
-					<div class="form-group col-xs-4">
-						<label>Estado/Regíon</label>
-						<input type="text" class="form-control" id="" name="" alt="" required  />
-					</div>
-					<div class="form-group col-xs-4">
-						<label>País</label>
-						<input type="text" class="form-control" id="" name="" alt="" required  />
-					</div>
-
-					<div class="form-group col-xs-6">
-						<label>Telefono</label>
-						<input type="number" class="form-control" id="" name="" alt="" required  />
-					</div>
-					<div class="form-group col-xs-6">
-						<label>Correo Personal</label>
-						<input type="email" class="form-control" id="" name="" alt="" required  />
-					</div>
-					<div class="form-group col-xs-12">
-						<label>Comentario</label>
-						<textarea class="form-control" required></textarea>
-					</div>
-					<div class="form-froup col-xs-12">
-						<div class="g-recaptcha" data-sitekey="6LfJgUAUAAAAAFeg0bP035py8q-q2XMAlxPG5kbm"></div>
-					</div>
-						<div align="center">
-						
-						<br><br><br>
-						<button type="submit" class="btn btn-primary">Enviar</button>
-						</div>
-				</form>
-			</div>
-			<div class="col-sm-4" style="padding-top: 30px;">
-
-				<p style="font-size: 14px; color: #19b3a1">	<i class="fa fa-home icon-default fa-3x" style="color: #19b3a1;"></i> Dirección: Dirección: Av. La Encalada 1090, Of. 803, Santiago de Surco, Lima 15023, Perú</p>
-				<p style="font-size: 14px; color: #19b3a1">	<i class="fa fa-phone icon-default fa-3x" style="color: #19b3a1;"></i>  Telefono: +51 (1) 634-4540</p>
-				<p style="font-size: 14px; color: #19b3a1">	<i class="fa fa-paper-plane icon-default fa-3x" style="color: #19b3a1;"></i>   Correo: info@ei-advantage.com</p>
-				
-				
-			</div>
+		</div>
+		<div class="col-sm-8 col-xs-12">
+			<form>
+				<div class="form-group col-xs-12 col-sm-6">
+					<label>Nombre(s):</label>
+					<input type="text" class="form-control" id="nombres" name="nombres" required />
+				</div>
+				<div class="form-group col-xs-12 col-sm-6">
+					<label>Apellido(s):</label>
+					<input type="text" class="form-control" id="apellidos" name="apellidos" required />
+				</div>
+				<div class="form-group col-xs-12 col-sm-6">
+					<label>Cargo/T&iacute;tulo/Rol:</label>
+					<input type="text" class="form-control" id="cargo" name="cargo" required />
+				</div>
+				<div class="form-group col-xs-12 col-sm-6">
+					<label>Organizaci&oacute;n:</label>
+					<input type="text" class="form-control" id="organizacion" name="organizacion" required />
+				</div>
+				<div class="form-group col-xs-12">
+					<label>Direcci&oacute;n:</label>
+					<input type="text" class="form-control" id="direccion" name="direccion" required />
+				</div>
+				<div class="form-group col-xs-12 col-sm-4">
+					<label>Ciudad:</label>
+					<input type="text" class="form-control" id="ciudad" name="ciudad" required />
+				</div>
+				<div class="form-group col-xs-12 col-sm-4">
+					<label>Estado/Regi&oacute;n:</label>
+					<input type="text" class="form-control" id="estado" name="estado" required />
+				</div>
+				<div class="form-group col-xs-12 col-sm-4">
+					<label>Pa&iacute;s:</label>
+					<input type="text" class="form-control" id="pais" name="pais" required />
+				</div>
+				<div class="form-group col-xs-12 col-sm-6">
+					<label>Tel&eacute;fono:</label>
+					<input type="number" class="form-control" id="telefono" name="telefono" required />
+				</div>
+				<div class="form-group col-xs-12 col-sm-6">
+					<label>Correo Personal:</label>
+					<input type="email" class="form-control" id="email" name="email" required />
+				</div>
+				<div class="form-group col-xs-12 col-sm-12">
+					<label>Comentario:</label>
+					<textarea class="form-control" id="mensaje" name="mensaje"></textarea>
+				</div>
+				<div class="form-froup col-xs-12 col-sm-12">
+					<div class="g-recaptcha" data-sitekey="6LfJgUAUAAAAAFeg0bP035py8q-q2XMAlxPG5kbm"></div>
+				</div>
+				<div align="center">
+					<br><br><br>
+					<button type="submit" class="btn btn-primary">Enviar</button>
+				</div>
+				<input type="hidden" name="proceso">
+				<?php $fecha = date("Y-m-d"); ?>
+                <input type="hidden" name="fecha_ingreso" value="<?php echo $fecha ?>">
+			</form>
+		</div>
+		<div class="col-sm-4 col-xs-12" style="padding-top: 30px;">
+			<?php
+				$consultarCot = 'SELECT * FROM contacto';
+				$resultadoCot = mysqli_query($enlaces,$consultarCot) or die('Consulta fallida: ' . mysqli_error($enlaces));
+				while($filaCot = mysqli_fetch_array($resultadoCot)){
+					$xDirection		= $filaCot['direction'];
+					$xPhone			= $filaCot['phone'];
+					$xEmail			= $filaCot['email'];
+			?>
+			<p style="font-size: 14px; color: #19b3a1">	
+				<i class="fa fa-home icon-default fa-3x" style="color: #19b3a1;"></i> <strong>Direcci&oacute;n:</strong> <?php echo $xDirection; ?>
+			</p>
+			<p style="font-size: 14px; color: #19b3a1">	
+				<i class="fa fa-phone icon-default fa-3x" style="color: #19b3a1;"></i> <strong>Tel&eacute;fono:</strong> <?php echo $xPhone; ?>
+			</p>
+			<p style="font-size: 14px; color: #19b3a1">	
+				<i class="fa fa-paper-plane icon-default fa-3x" style="color: #19b3a1;"></i> <strong>Correo:</strong> <?php echo $xEmail; ?>
+			</p>
+			<?php
+				}
+				mysqli_free_result($resultadoCot);
+			?>
 		</div>
 	</div>
+</div>
 
-<!--version mobil-->
+<!--version mobil
 <div class="container responform">
 	<div class="row form">
 		<div align="center">
-		<h1><span>Contactanos</span></h1>
+			<h1><span>Contactanos</span></h1>
 		</div>
 		<form action="" method="">
-		<div class="col-sm-6">
-			<div class='field'>
-			    <input class='placeholder-input' id='' type='text'>
-			    <label class='placeholder-label' for=''>Nombre(s)</label>
-			  </div>
-		</div>
-		<div class="col-sm-6">
-			<div class='field'>
-			    <input class='placeholder-input' id='' type='text'>
-			    <label class='placeholder-label' for=''>Apellido(s)</label>
-			  </div>
-		</div>
-		<div class="col-sm-6">
-			<div class='field'>
-			    <input class='placeholder-input' id='' type='text'>
-			    <label class='placeholder-label' for=''>Cargo/Titulo/Rol</label>
-			  </div>
-		</div>
-		<div class="col-sm-6">
-			<div class='field'>
-			    <input class='placeholder-input' id='' type='text'>
-			    <label class='placeholder-label' for=''>Organizaciín</label>
-			  </div>
-		</div>
-		<div class="col-sm-12">
-			<div class='field'>
-			    <input class='placeholder-input' id='' type='text'>
-			    <label class='placeholder-label' for=''>Direcciín Domicilio</label>
-			  </div>
-		</div>
-		<div class="col-sm-6">
-			<div class='field'>
-			    <input class='placeholder-input' id='' type='text'>
-			    <label class='placeholder-label' for=''>País</label>
-			  </div>
-		</div>
-		<div class="col-sm-6">
-			<div class='field'>
-			    <input class='placeholder-input' id='' type='text'>
-			    <label class='placeholder-label' for=''>Regíon/Estado</label>
-			  </div>
-		</div>
-		<div class="col-sm-6">
-			<div class='field'>
-			    <input class='placeholder-input' id='' type='number'>
-			    <label class='placeholder-label' for=''>Cod Postal</label>
-			  </div>
-		</div>
-		<div class="col-sm-6">
-			<div class='field'>
-			    <input class='placeholder-input' id='' type='number'>
-			    <label class='placeholder-label' for=''>Telefono</label>
-			  </div>
-		</div>
-		<div class="col-sm-6">
-			<div class='field'>
-			    <input class='placeholder-input' id='' type='email'>
-			    <label class='placeholder-label' for=''>Email Personal</label>
-			  </div>
-		</div>
-		<div class="col-sm-6">
-			<div class='field'>
-			    <input class='placeholder-input' id='' type='text'>
-			    <label class='placeholder-label' for=''>Tu Comentario</label>
-			    <template class="placeholder-input"></template>
-			  </div>
-		</div>
-		
-
-
-
-		<br><br>
-		<div class="form-froup col-xs-12">
-			<div class="g-recaptcha" data-sitekey="6LfJgUAUAAAAAFeg0bP035py8q-q2XMAlxPG5kbm"></div>
-		</div>
-			<div align="left">
-					<button type="submit" class="btn btn-primary">Enviar</button>
+			<div class="col-sm-6">
+				<div class='field'>
+					<input class='placeholder-input' id='nombres' type='text'>
+					<label class='placeholder-label' for='nombres'>Nombre(s)</label>
+				</div>
 			</div>
-	</div>
+			<div class="col-sm-6">
+				<div class='field'>
+					<input class='placeholder-input' id='' type='text'>
+					<label class='placeholder-label' for=''>Apellido(s)</label>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class='field'>
+					<input class='placeholder-input' id='' type='text'>
+					<label class='placeholder-label' for=''>Cargo/Titulo/Rol</label>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class='field'>
+					<input class='placeholder-input' id='' type='text'>
+					<label class='placeholder-label' for=''>Organizaci&oacute;n</label>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<div class='field'>
+					<input class='placeholder-input' id='' type='text'>
+					<label class='placeholder-label' for=''>Direcci&oacute;n Domicilio</label>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class='field'>
+					<input class='placeholder-input' id='' type='text'>
+					<label class='placeholder-label' for=''>Pa&iacute;s</label>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class='field'>
+					    <input class='placeholder-input' id='' type='text'>
+					    <label class='placeholder-label' for=''>Regi&oacute;n/Estado</label>
+					  </div>
+				</div>
+				<div class="col-sm-6">
+					<div class='field'>
+					    <input class='placeholder-input' id='' type='number'>
+					    <label class='placeholder-label' for=''>Cod Postal</label>
+					  </div>
+				</div>
+				<div class="col-sm-6">
+					<div class='field'>
+					    <input class='placeholder-input' id='' type='number'>
+					    <label class='placeholder-label' for=''>Tel&eacute;fono</label>
+					  </div>
+				</div>
+				<div class="col-sm-6">
+					<div class='field'>
+					    <input class='placeholder-input' id='' type='email'>
+					    <label class='placeholder-label' for=''>Email Personal</label>
+					  </div>
+				</div>
+				<div class="col-sm-6">
+					<div class='field'>
+					    <input class='placeholder-input' id='' type='text'>
+					    <label class='placeholder-label' for=''>Tu Comentario</label>
+					    <template class="placeholder-input"></template>
+					  </div>
+				</div>
+			<br><br>
+			<div class="form-froup col-xs-12">
+				<div class="g-recaptcha" data-sitekey="6LfJgUAUAAAAAFeg0bP035py8q-q2XMAlxPG5kbm"></div>
+			</div>
+				<div align="left">
+					<button type="submit" class="btn btn-primary">Enviar</button>
+				</div>
+			</div>
 		</form>
-</div>
+	</div>-->
 
-
-<?php
-
-include ('modulo/contactobtn.php');
-
-?>
-
-
-<script type="text/javascript">
-	$(".placeholder-input").on("blur", function() {  $(this).toggleClass("not-empty", !!$(this).val());});
-</script>
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<?php
+		include ('modulo/contactobtn.php');
+	?>
+	<script type="text/javascript">
+		$(".placeholder-input").on("blur", function() {  $(this).toggleClass("not-empty", !!$(this).val());});
+	</script>

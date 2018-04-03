@@ -1,29 +1,30 @@
 	<!-- form1-->
+	<?php
+		$consultarConini = "SELECT * FROM contenidos_inicio WHERE cod_contenido='1' AND estado='1'";
+	    $resultadoConini = mysqli_query($enlaces,$consultarConini) or die('Consulta fallida: ' . mysqli_error($enlaces));
+	    while($filaConini = mysqli_fetch_array($resultadoConini)){
+	    	$xCodigo      	= $filaConini['cod_contenido'];
+	        $xContenido_2 	= htmlspecialchars($filaConini['contenido_2']);
+			$xContenido_3  	= $filaConini['contenido_3'];
+			$xContenido_4  	= $filaConini['contenido_4'];
+			$xContenido_5  	= htmlspecialchars($filaConini['contenido_5']);
+    ?>
 	<div class="content-section-a">
-		<div class="container fadeDown" align="center ">
-			<h1>Desarrollo de  <span>Inteligencia Emocional</strong> en el Trabajo   </h1>
-				  
-				<br/><br />
+		<div class="container fadeDown" align="center">
+			<h1><strong><?php echo $xContenido_2; ?></strong></h1>
+			<br/><br />
 			<div class="row">
 				<div class="col-sm-6 animated fadeInLeftBig" align="right">
-					<h3>¿Qué es <span>Inteligencia</span>  Emocional (IE)?</h3>
-					<p>La Inteligencia Emocional consiste en un conjunto de habilidades que define: En qué medida reconocemos y reaccionamos ante las emociones,
-						Estas habilidades son la razón de muchos aspectos del éxito en la vida; estas son las razones por las que se ha definido a la Inteligencia Emocional como el requisito para ser inteligente.</p>
-					<br><br>
-					<h3>El Modelo<span>Genos de Inteligencia</span>Emocional</h3>
-					<p>La solución única de Genos combina la Inteligencia Emocional con el Compromiso del
-					Trabajador en una propuesta singular e integrada. Ha sido diseñada para mediciones “antes
-					y después”, con una intervención de capacitación o coaching entre ambas. El Modelo Genos
-					de Inteligencia Emocional fue diseñada específicamente para desarrollo y mostrar “cómo se
-					mueve el medidor” al desarrollar habilidades de Inteligencia Emocional e impulsar el
-					Compromiso de los Trabajadores.</p>
-					  
-					
+					<?php echo $xContenido_3; ?>
 				</div>
 				<div class="col-sm-6 animated fadeInRightBig" align="center">	
-					<img src="img/world.png" class="img-responsive" style="width: 65%; margin-top: 100px;">
-					<p>By 2020 Emotional Intelligence will be <br> In the top 10 required job skills</p>				
+					<img src="cms/assets/img/contenidos/<?php echo $xContenido_4; ?>" class="img-responsive" style="width: 65%; margin-top: 100px;">
+					<p><?php echo $xContenido_5; ?></p>				
 				</div>
 			</div>
 		</div>
 	</div>
+	<?php
+    	}
+        mysqli_free_result($resultadoConini);
+    ?>
