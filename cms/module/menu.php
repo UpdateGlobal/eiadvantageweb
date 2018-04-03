@@ -94,7 +94,11 @@
               <span class="arrow"></span>
             </a>
 
+<<<<<<< HEAD
             <ul class="menu-submenu" <?php echo ($menu == "evaluaciones" ? "style='display:block;'" : "")?> >
+=======
+            <ul class="menu-submenu" <?php echo ($menu == "partner" ? "style='display:block;'" : "")?> >
+>>>>>>> 946e9da34179017ca581348f631bab726c9ef7ae
               <li class="menu-item">
                 <a class="menu-link" href="evaluaciones.php">
                   <span class="dot"></span>

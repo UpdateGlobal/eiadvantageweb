@@ -5,7 +5,11 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <html class="no-js" lang="es">
 <head>
+<<<<<<< HEAD
 	<?php include ('modulo/headerdescripcion.php'); ?>
+=======
+	<?php include ('modulo/headerdescripcion.php');?>
+>>>>>>> 946e9da34179017ca581348f631bab726c9ef7ae
 </head>
 <body>
 	<?php

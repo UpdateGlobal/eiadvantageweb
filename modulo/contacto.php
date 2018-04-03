@@ -244,6 +244,10 @@
 		</form>
 	</div>-->
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 946e9da34179017ca581348f631bab726c9ef7ae
 	<?php
 		include ('modulo/contactobtn.php');
 	?>
