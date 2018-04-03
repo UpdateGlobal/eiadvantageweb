@@ -28,7 +28,6 @@
 	</div>
 	<br><br><br><br><br>
 	<?php
-<<<<<<< HEAD
     	$consultarEvaluaciones = "SELECT * FROM evaluaciones";
         $resultadoEvaluaciones = mysqli_query($enlaces, $consultarEvaluaciones);
         $filaEva = mysqli_fetch_array($resultadoEvaluaciones);
@@ -44,11 +43,5 @@
 		}
 	?>
 	<?php include('modulo/footer.php'); ?>
-=======
-		include ('modulo/evaluciones.php');
-		include ('modulo/contactobtn.php');
-		include ('modulo/footer.php');
-	?>
->>>>>>> 946e9da34179017ca581348f631bab726c9ef7ae
 	<?php include('modulo/scripts.php'); ?>
 </body>
