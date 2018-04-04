@@ -114,7 +114,7 @@ if ($eliminar == "true") {
                     </thead>
                     <tbody>
                       <?php
-                        $consultarCategorias = "SELECT * FROM noticias_categorias WHERE estado='1' ORDER BY orden";
+                        $consultarCategorias = "SELECT * FROM noticias_categorias ORDER BY orden";
                         $resultadoCategorias = mysqli_query($enlaces,$consultarCategorias) or die('Consulta fallida: ' . mysqli_error($enlaces));
                         while($filaCat = mysqli_fetch_array($resultadoCategorias)){
                           $xCodigo    = $filaCat['cod_categoria'];
