@@ -6,6 +6,11 @@
 <html class="no-js" lang="es">
 <head>
 	<?php include ('modulo/headerdescripcion.php');?>
+	<style>
+		.thumbnail .content{
+			padding: 30px 25px 40px 25px;
+		}
+	</style>
 </head>
 <body>
 	<?php

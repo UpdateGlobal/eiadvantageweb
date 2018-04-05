@@ -122,6 +122,27 @@ if ($eliminar == "true") {
         <div class="row">
           <div class="col-md-12">
             <div class="card card-bordered">
+              <h4 class="card-title"><strong>Formulario</strong></h4>
+              <div class="card-body">
+                <?php
+                  $consultarCot = 'SELECT * FROM contacto';
+                  $resultadoCot = mysqli_query($enlaces,$consultarCot) or die('Consulta fallida: ' . mysqli_error($enlaces));
+                  while($filaCot  = mysqli_fetch_array($resultadoCot)){
+                    $xForpart     = $filaCot['partner_mail'];
+                ?>
+                <strong>Correo que recibe nuevos Partners:</strong> <?php echo $xForpart; ?>
+                <?php
+                  }
+                  mysqli_free_result($resultadoCot);
+                ?>
+              </div>
+            </div>
+          </div>
+        </div>
+                
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card card-bordered">
               <h4 class="card-title"><strong>Lista de P&aacute;rrafos</strong></h4>
               <div class="card-body">
                 <a class="btn btn-info" href="<?php if($xVisitante=="0"){ ?>partner-lista-nuevo.php<?php }else{ ?>javascript:visitante();<?php } ?>"><i class="fa fa-plus"></i> A&ntilde;adir nuevo</a>

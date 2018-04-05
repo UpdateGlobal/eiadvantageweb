@@ -2,13 +2,9 @@
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <html class="no-js" lang="es">
-
 <head>
-
 	<?php include ('modulo/headerdescripcion.php');?>
-
 </head>
-
 <body>
 		<?php
 			include ('modulo/preload.php');
@@ -136,3 +132,4 @@
 	<!-- Theme option-->
 	<script src="js/template-option/demosetting.js"></script>
 </body>
+</html>
