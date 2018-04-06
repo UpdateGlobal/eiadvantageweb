@@ -1,47 +1,47 @@
 <style type="text/css">
 .form {
-  width: 100%;
-  margin: 30px auto;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  transform: translateZ(0);
+	width: 100%;
+	margin: 30px auto;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	transform: translateZ(0);
 }
 .form .field {
-  position: relative;
-  margin-bottom: 10px;
-  height: 40px;
+	position: relative;
+	margin-bottom: 10px;
+	height: 40px;
 }
 .form .field .placeholder-label {
-  position: absolute;
-  top: 14px;
-  left: 12px;
-  font-weight: 300;
-  color: #aaa;
-  cursor: text;
-  z-index: 200;
-  transition: all 0.25s;
+	position: absolute;
+	top: 14px;
+	left: 12px;
+	font-weight: 300;
+	color: #aaa;
+	cursor: text;
+	z-index: 200;
+  	transition: all 0.25s;
 }
 .form .field .placeholder-label:after {
-  content: ":";
-  opacity: 0;
-  color: #333;
-  transition: all 0.5s;
+  	content: ":";
+  	opacity: 0;
+  	color: #333;
+  	transition: all 0.5s;
 }
 .form .field .placeholder-input {
-  position: absolute;
-  width: 80%;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid #aaa;
-  font-size: 16px;
-  z-index: 100;
-  transition: all 0.25s;
+  	position: absolute;
+  	width: 80%;
+  	padding: 10px;
+  	border-radius: 10px;
+  	border: 1px solid #aaa;
+  	font-size: 16px;
+  	z-index: 100;
+  	transition: all 0.25s;
 }
 .form .field .placeholder-input:focus, .form .field .placeholder-input.not-empty {
-  margin-left: 0px;
-  width: 100%;
-  outline: none;
-  border-color: #18b7a3;
+	margin-left: 0px;
+	width: 100%;
+	outline: none;
+	border-color: #18b7a3;
 }
 .form .field .placeholder-input:focus + .placeholder-label, .form .field .placeholder-input.not-empty + .placeholder-label {
 	color: #333;
@@ -69,34 +69,82 @@
 	}
 }
 </style>
+<script>
+    function sendContact(){
+        var valid;
+        valid = validateContact();
+        if(valid) {
+            jQuery.ajax({
+                url: "inscription_form.php",
+                data:'direccion='+$("#direccion").val()+'&telefono='+$("#telefono").val()+'&email='+$("#email").val(),
+                type: "POST",
+                success:function(data){
+                    $("#mail-status").html(data);
+                    $("#send").html("");
+                },
+                error:function (){}
+            });
+        }
+    }
+    function validateContact() {
+        var valid = true;
+        if(!$("#direccion").val()) {
+            $("#direccion").css('background-color','#f28282');
+            $("#send").html("<p>Debe llenar todos los campos</p>");
+            valid = false;
+        }
+        if(!$("#telefono").val()) {
+            $("#telefono").css('background-color','#f28282');
+            $("#send").html("<p>Debe llenar todos los campos</p>");
+            valid = false;
+        }
+        if(!$("#email").val()) {
+            $("#email").css('background-color','#f28282');
+            $("#send").html("<p>Debe llenar todos los campos</p>");
+            valid = false;
+        }
+        if(!$("#email").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+            $("#email").css('background-color','#f28282');
+            $("#send").html("<p>Debe ingresar un email válido</p>");
+            valid = false;
+        }
+        return valid;
+    }
+</script>
 	<div class="container">
 		<br><br>
 		<div class="row">
 			<div align="center">
 				<h1><strong>Inscribete</strong> YA!</h1>
 			</div>
-			<div class="col-sm-12 ">
-				<form>
+			<div class="col-sm-12">
+				<!-- <form> -->
 					<div class="form-group col-xs-12">
 						<label>Direcci&oacute;n:</label>
-						<input type="text" class="form-control" id="direccion" name="direccion" alt="" required  />
+						<input type="text" class="form-control" id="direccion" name="direccion" alt="" required />
 					</div>
 					<div class="form-group col-xs-12">
 						<label>Tel&eacute;fono:</label>
-						<input type="text" class="form-control" id="telefono" name="telefono" alt="" required  />
+						<input type="text" class="form-control" id="telefono" name="telefono" alt="" required />
 					</div>
 					<div class="form-group col-xs-12">
 						<label>Correo Electr&oacute;nico:</label>
-						<input type="email" class="form-control" id="email" name="email" alt="" required  />
+						<input type="email" class="form-control" id="email" name="email" alt="" required />
 					</div>
 					<div class="form-froup col-xs-12">
 						<div class="g-recaptcha" data-sitekey="6LfJgUAUAAAAAFeg0bP035py8q-q2XMAlxPG5kbm"></div>
 					</div>
-					<div align="center">
-						<br><br><br>
+					<br><br><br>
+					<div class="form-froup col-xs-12" align="center">
+						<div style="clear:both;"></div>
+						<div id="mail-status"></div>
+						<?php
+                			$fecha = date("Y-m-d");
+              			?>
+            			<input type="hidden" name="fecha_ingreso" value="<?php echo $fecha ?>">
 						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bs-example-modal-lg">Inscribete</button>
 					</div>
-				</form>
+				<!-- </form> -->
 			</div>
 		</div>
 	</div>
@@ -121,8 +169,9 @@
 					<h5>Aceptación de los Términos y Condiciones</h5>
 				</div>
 				<div class="modal-footer">
+					<div id="send"></div>
 					<button type="button" class="btn btn-default btn-sm" data-dismiss="modal">No Acepto</button>
-					<button type="button" class="btn btn-primary btn-sm">Acepto</button>
+					<button type="button" class="btn btn-primary btn-sm" onClick="sendContact();">Acepto</button>
 				</div>
 			</div>
 		</div>

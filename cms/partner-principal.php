@@ -113,8 +113,10 @@ if ($eliminar == "true") {
                   ?></p>
                 <p><strong>Enlace de Contacto (?):</strong> <?php if($xContacto=="1"){ echo "- Si -"; }else{ echo "- No -";} ?></p>
                 <p><strong>Formulario (?):</strong> <?php if($xFormulario=="1"){ echo "- Si -"; }else{ echo "- No -";} ?></p>
-                <a class="btn btn-info" href="<?php if($xVisitante=="0"){ ?>partner-principal-edit.php?cod_partner_principal=<?php echo $xCodigo; ?><?php }else{ ?>javascript:visitante();<?php } ?>"><i class="fa fa-pencil"></i> Editar Principal</a>
               </div>
+              <footer class="card-footer">
+                <a class="btn btn-info" href="<?php if($xVisitante=="0"){ ?>partner-principal-edit.php?cod_partner_principal=<?php echo $xCodigo; ?><?php }else{ ?>javascript:visitante();<?php } ?>"><i class="fa fa-pencil"></i> Editar Principal</a>
+              </footer>
             </div>
           </div>
         </div>
@@ -123,19 +125,23 @@ if ($eliminar == "true") {
           <div class="col-md-12">
             <div class="card card-bordered">
               <h4 class="card-title"><strong>Formulario</strong></h4>
+              <?php
+                $consultarCot = 'SELECT * FROM contacto';
+                $resultadoCot = mysqli_query($enlaces,$consultarCot) or die('Consulta fallida: ' . mysqli_error($enlaces));
+                while($filaCot  = mysqli_fetch_array($resultadoCot)){
+                  $xCodigoP     = $filaCot['cod_contact'];
+                  $xForpart     = $filaCot['partner_mail'];
+              ?>
               <div class="card-body">
-                <?php
-                  $consultarCot = 'SELECT * FROM contacto';
-                  $resultadoCot = mysqli_query($enlaces,$consultarCot) or die('Consulta fallida: ' . mysqli_error($enlaces));
-                  while($filaCot  = mysqli_fetch_array($resultadoCot)){
-                    $xForpart     = $filaCot['partner_mail'];
-                ?>
                 <strong>Correo que recibe nuevos Partners:</strong> <?php echo $xForpart; ?>
-                <?php
-                  }
-                  mysqli_free_result($resultadoCot);
-                ?>
               </div>
+              <footer class="card-footer">
+                <a class="btn btn-info" href="partner-form.php?cod_contact=<?php echo $xCodigoP; ?>"><i class="fa fa-pencil"></i> Editar Correo</a>
+              </footer>
+              <?php
+                }
+                mysqli_free_result($resultadoCot);
+              ?>
             </div>
           </div>
         </div>
@@ -150,7 +156,6 @@ if ($eliminar == "true") {
                 <form name="fcms" method="post" action="">
                   <table class="table">
                     <thead>
-                      
                       <tr>
                         <th width="65%" scope="col">T&iacute;tulo
                           <input type="hidden" name="proceso">

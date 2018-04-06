@@ -111,8 +111,35 @@ if ($eliminar == "true") {
                     echo $xDescripcion;
                   ?></p>
                 <p><strong>Enlace de Contacto (?):</strong> <?php if($xContacto=="1"){ echo "- Si -"; }else{ echo "- No -";} ?></p>
-                <a class="btn btn-info" href="<?php if($xVisitante=="0"){ ?>certificaciones-principal-edit.php?cod_certificaciones_principal=<?php echo $xCodigo; ?><?php }else{ ?>javascript:visitante();<?php } ?>"><i class="fa fa-pencil"></i> Editar Principal</a>
               </div>
+              <footer class="card-footer">
+                <a class="btn btn-info" href="<?php if($xVisitante=="0"){ ?>certificaciones-principal-edit.php?cod_certificaciones_principal=<?php echo $xCodigo; ?><?php }else{ ?>javascript:visitante();<?php } ?>"><i class="fa fa-pencil"></i> Editar Principal</a>
+              </footer>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card card-bordered">
+              <h4 class="card-title"><strong>Formulario</strong></h4>
+              <?php
+                $consultarCot = 'SELECT * FROM contacto';
+                $resultadoCot = mysqli_query($enlaces,$consultarCot) or die('Consulta fallida: ' . mysqli_error($enlaces));
+                while($filaCot  = mysqli_fetch_array($resultadoCot)){
+                  $xCodigoCont = $filaCot['cod_contact'];
+                  $xForins     = $filaCot['inscripcion_mail'];
+              ?>
+              <div class="card-body">
+                <strong>Correo que recibe las nuevas Inscripciones:</strong> <?php echo $xForins; ?>
+              </div>
+              <footer class="card-footer">
+                <a class="btn btn-info" href="certificaciones-principal-form.php?cod_contact=<?php echo $xCodigoCont; ?>"><i class="fa fa-pencil"></i> Editar Correo</a>
+              </footer>
+              <?php
+                }
+                mysqli_free_result($resultadoCot);
+              ?>
             </div>
           </div>
         </div>

@@ -35,7 +35,7 @@ if ($eliminar == "true") {
     <?php include("module/head.php"); ?>
     <style>
       @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px){
-        td:nth-of-type(1):before { content: "Nombres y Apellidos"; }
+        td:nth-of-type(1):before { content: "Dirección"; }
         td:nth-of-type(2):before { content: "De:"; }
         td:nth-of-type(3):before { content: "Teléfono"; }
         td:nth-of-type(4):before { content: "Fecha"; }
@@ -99,7 +99,7 @@ if ($eliminar == "true") {
                   <table class="table" data-provide="datatables">
                     <thead>
                       <tr>
-                        <th width="40%" scope="col">Nombres y Apellidos
+                        <th width="40%" scope="col">Direcci&oacute;n
                           <input type="hidden" name="proceso">
                           <input type="hidden" name="eliminar" value="false">
                         </th>
@@ -116,15 +116,14 @@ if ($eliminar == "true") {
                         $resultadoContacto = mysqli_query($enlaces,$consultarContacto) or die('Consulta fallida: ' . mysqli_error($enlaces));
                         while($filaCon = mysqli_fetch_array($resultadoContacto)){
                           $xCodigo    = $filaCon['cod_inscripcion'];
-                          $xNombres   = $filaCon['nombres'];
-                          $xApellidos = $filaCon['apellidos'];
+                          $xDireccion = $filaCon['direccion'];
                           $xEmail     = $filaCon['correo'];
-                          $xTelefono  = $filaCon['telefono_empresa'];
+                          $xTelefono  = $filaCon['telefono'];
                           $xFecha     = $filaCon['fecha_ingreso'];
                           $num++;
                       ?>
                       <tr>
-                        <td><?php echo $xNombres; ?> <?php echo $xApellidos; ?></td>
+                        <td><?php echo $xDireccion; ?></td>
                         <td><?php echo $xEmail; ?></td>
                         <td><?php echo $xTelefono; ?></td>
                         <td><?php echo $xFecha; ?></td>

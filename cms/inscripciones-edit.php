@@ -7,23 +7,10 @@ $consultaIns="SELECT * FROM inscripcion WHERE cod_inscripcion='$cod_inscripcion'
 $resultadoIns=mysqli_query($enlaces,$consultaIns);
 $filaIns = mysqli_fetch_array($resultadoIns);
 $cod_inscripcion     = $filaIns['cod_inscripcion'];
-$xNombres            = $filaIns['nombres'];
-$xApellidos          = $filaIns['apellidos'];
-$xFecha              = $filaIns['fecha_ingreso'];
-$xCargo              = $filaIns['cargo'];
-$xOrganizacion       = $filaIns['organizacion'];
-$xDireccion_d        = $filaIns['direccion_domicilio'];
-$xDireccion_e        = $filaIns['direccion_empresa'];
-$xCiudad             = $filaIns['ciudad'];
-$xEstado             = $filaIns['estado'];
-$xPais               = $filaIns['pais'];
-$xPostal             = $filaIns['postal'];
-$xTelefono_m         = $filaIns['telefono_mobil'];
-$xTelefono_d         = $filaIns['telefono_domicilio'];
+$xDireccion          = $filaIns['direccion'];
+$xTelefono           = $filaIns['telefono'];
 $xEmail              = $filaIns['correo'];
-$xTelefono_e         = $filaIns['telefono_empresa'];
-$xCertificacion      = $filaIns['certificacion'];
-$xEvaluaciones       = $filaIns['evaluaciones'];
+$xFecha              = $filaIns['fecha_ingreso'];
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -62,10 +49,6 @@ $xEvaluaciones       = $filaIns['evaluaciones'];
                 <div class="card-body">
                   <table class="table" width="100%" border="0">
                     <tr>
-                      <td><strong>Nombres y Apellidos:</strong></td>
-                      <td><?php echo $xNombres; ?> <?php echo $xApellidos; ?></td>
-                    </tr>
-                    <tr>
                       <td><strong>De:</strong></td>
                       <td><?php echo $xEmail; ?></td>
                     </tr>
@@ -74,60 +57,12 @@ $xEvaluaciones       = $filaIns['evaluaciones'];
                       <td><?php echo $xFecha; ?></td>
                     </tr>
                     <tr>
-                      <td><strong>Cargo:</strong></td>
-                      <td><?php echo $xCargo; ?></td>
+                      <td><strong>Direcci&oacute;n:</strong></td>
+                      <td><?php echo $xDireccion; ?></td>
                     </tr>
                     <tr>
-                      <td><strong>Organizaci&oacute;n:</strong></td>
-                      <td><?php echo $xOrganizacion; ?></td>
-                    </tr>
-                    <tr>
-                      <td><strong>Direcci&oacute;n Domicilio:</strong></td>
-                      <td><?php echo $xDireccion_d; ?></td>
-                    </tr>
-                    <tr>
-                      <td><strong>Direcci&oacute;n Empresa:</strong></td>
-                      <td><?php echo $xDireccion_e; ?></td>
-                    </tr>
-                    <tr>
-                      <td><strong>Ciudad:</strong></td>
-                      <td><?php echo $xCiudad; ?></td>
-                    </tr>
-                    <tr>
-                      <td><strong>Estado:</strong></td>
-                      <td><?php echo $xEstado; ?></td>
-                    </tr>
-                    <tr>
-                      <td><strong>Pa&iacute;s:</strong></td>
-                      <td><?php echo $xPais; ?></td>
-                    </tr>
-                    <tr>
-                      <td><strong>C&oacute;digo Postal:</strong></td>
-                      <td><?php echo $xPostal; ?></td>
-                    </tr>
-                    <tr>
-                      <td><strong>Tel&eacute;fono M&oacute;bil:</strong></td>
-                      <td><?php echo $xTelefono_m; ?></td>
-                    </tr>
-                    <tr>
-                      <td><strong>Tel&eacute;fono Domicilio:</strong></td>
-                      <td><?php echo $xTelefono_d; ?></td>
-                    </tr>
-                    <tr>
-                      <td><strong>Tel&eacute;fono Empresa:</strong></td>
-                      <td><?php echo $xTelefono_e; ?></td>
-                    </tr>
-                    <tr>
-                      <td colspan="2">
-                        <strong>¿C&oacute;mo se enter&oacute; de este Programa de Certificaci&oacute;n?:</strong><br>
-                        <?php echo $xCertificacion; ?>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td colspan="2">
-                        <strong>¿Aplicar&aacute; evaluaciones en su propia empresa o para sus clientes?:</strong><br>
-                        <?php echo $xEvaluaciones; ?>
-                      </td>
+                      <td><strong>Tel&eacute;fono:</strong></td>
+                      <td><?php echo $xTelefono; ?></td>
                     </tr>
                   </table>
                 </div>

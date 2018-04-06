@@ -76,7 +76,7 @@
 			<h1><span>Contactanos</span></h1>
 		</div>
 		<div class="col-sm-8 col-xs-12">
-			<form>
+			<!-- <form> -->
 				<div class="form-group col-xs-12 col-sm-6">
 					<label>Nombre(s):</label>
 					<input type="text" class="form-control" id="nombres" name="nombres" required />
@@ -126,12 +126,15 @@
 				</div>
 				<div align="center">
 					<br><br><br>
+					<div style="clear:both;"></div>
+					<div id="mail-status"></div>
+					<?php 
+					 	$fecha = date("Y-m-d");
+					?>
+        	        <input type="hidden" name="fecha_ingreso" value="<?php echo $fecha ?>">
 					<button type="submit" class="btn btn-primary">Enviar</button>
 				</div>
-				<input type="hidden" name="proceso">
-				<?php $fecha = date("Y-m-d"); ?>
-                <input type="hidden" name="fecha_ingreso" value="<?php echo $fecha ?>">
-			</form>
+			<!-- </form> -->
 		</div>
 		<div class="col-sm-4 col-xs-12" style="padding-top: 30px;">
 			<?php

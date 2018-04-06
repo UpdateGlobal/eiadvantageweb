@@ -1,3 +1,76 @@
+<script>
+    function sendContact(){
+        var valid;
+        valid = validateContact();
+        if(valid) {
+            jQuery.ajax({
+                url: "contact_form.php",
+                data:'nombres='+$("#nombres").val()+'&apellidos='+$("#apellidos").val()+'&cargo='+$("#cargo").val()+'&organizacion='+$("#organizacion").val()+'&direccion='+$("#direccion").val()+'&ciudad='+$("#ciudad").val()+'&estado='+$("#estado").val()+'&postal='+$("#postal").val()+'&pais='+$("#pais").val()+'&telefono='+$("#telefono").val()+'&email='+$("#email").val()+'&comentarios='+$("#comentarios").val()+'&fecha_ingreso='+$("#fecha_ingreso").val(),
+                type: "POST",
+                success:function(data){
+                    $("#mail-status").html(data);
+                },
+                error:function (){}
+            });
+        }
+    }
+    function validateContact() {
+        var valid = true;
+        if(!$("#nombres").val()) {
+            $("#nombres").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#apellidos").val()) {
+            $("#apellidos").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#cargo").val()) {
+            $("#cargo").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#organizacion").val()) {
+            $("#organizacion").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#direccion").val()) {
+            $("#direccion").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#ciudad").val()) {
+            $("#ciudad").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#estado").val()) {
+            $("#estado").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#postal").val()) {
+            $("#postal").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#pais").val()) {
+            $("#pais").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#telefono").val()) {
+            $("#telefono").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#email").val()) {
+            $("#email").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#email").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+            $("#email").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#comentarios").val()) {
+            $("#comentarios").css('background-color','#f28282');
+            valid = false;
+        }
+        return valid;
+    }
+</script>
 <div class="container-fluid container">
 	<div class="row">
 		<?php
@@ -120,10 +193,11 @@
 			<h1><span>Contactanos </span>Partner</h1>
 		</div>
 		<div class="col-sm-12">
-			<form>
+			<div>
+			<!-- <form> -->
 				<div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<label>Nombre(s):</label>
-					<input type="text" class="form-control" id="nombre" name="nombre" required >
+					<input type="text" class="form-control" id="nombres" name="nombres" required >
 				</div>
 				<div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<label>Apellido(s):</label>
@@ -163,7 +237,7 @@
 				</div>
 				<div class="form-group col-xs-12 col-sm-12 col-md-4 col-lg-4">
 					<label>Correo Eletr&oacute;nico:</label>
-					<input type="email" class="form-control" id="correo" name="correo" required />
+					<input type="email" class="form-control" id="email" name="email" required />
 				</div>
 				<div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<label>Comentarios:</label>
@@ -172,12 +246,18 @@
 				<div class="form-froup col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="g-recaptcha" data-sitekey="6LfJgUAUAAAAAFeg0bP035py8q-q2XMAlxPG5kbm"></div>
 				</div>
-				<div align="center">	
+				<div align="center">
 					<br><br><br>
-					<button type="submit" class="btn btn-primary">Enviar</button>
+					<div id="mail-status"></div>
+              		<?php
+                		$fecha = date("Y-m-d");
+              		?>
+            		<input type="hidden" name="fecha_ingreso" value="<?php echo $fecha ?>">
+					<button name="submit" class="btn btn-primary" onClick="sendContact();">Enviar</button>
 					<br><br><br>
 				</div>
-			</form>
+			<!-- </form> -->
+			</div>
 		</div>
 	</div>
 </div>
