@@ -1,3 +1,74 @@
+<script>
+	function sendContact(){
+        var valid;
+        valid = validateContact();
+        if(valid) {
+            jQuery.ajax({
+                url: "contact_form.php",
+                data:'nombres='+$("#nombres").val()+'&apellidos='+$("#apellidos").val()+'&cargo='+$("#cargo").val()+'&organizacion='+$("#organizacion").val()+'&direccion='+$("#direccion").val()+'&ciudad='+$("#ciudad").val()+'&estado='+$("#estado").val()+'&pais='+$("#pais").val()+'&telefono='+$("#telefono").val()+'&email='+$("#email").val()+'&mensaje='+$("#mensaje").val()+'&fecha_ingreso='+$("#fecha_ingreso").val(),
+                type: "POST",
+                success:function(data){
+                    $("#mail-status").html(data);
+                    $("#send").html("");
+                },
+                error:function (){}
+            });
+        }
+    }
+    function validateContact() {
+        var valid = true;
+        if(!$("#nombres").val()) {
+            $("#nombres").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#apellidos").val()) {
+            $("#apellidos").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#cargo").val()) {
+            $("#cargo").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#organizacion").val()) {
+            $("#organizacion").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#direccion").val()) {
+            $("#direccion").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#ciudad").val()) {
+            $("#ciudad").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#estado").val()) {
+            $("#estado").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#pais").val()) {
+            $("#pais").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#telefono").val()) {
+            $("#telefono").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#email").val()) {
+            $("#email").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#email").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+            $("#email").css('background-color','#f28282');
+            valid = false;
+        }
+        if(!$("#mensaje").val()) {
+            $("#mensaje").css('background-color','#f28282');
+            valid = false;
+        }
+        return valid;
+    }
+	
+</script>
 <style type="text/css">
 .form {
   width: 100%;
@@ -121,9 +192,9 @@
 					<label>Comentario:</label>
 					<textarea class="form-control" id="mensaje" name="mensaje"></textarea>
 				</div>
-				<div class="form-froup col-xs-12 col-sm-12">
+				<!-- <div class="form-froup col-xs-12 col-sm-12">
 					<div class="g-recaptcha" data-sitekey="6LfJgUAUAAAAAFeg0bP035py8q-q2XMAlxPG5kbm"></div>
-				</div>
+				</div> -->
 				<div align="center">
 					<br><br><br>
 					<div style="clear:both;"></div>
@@ -131,8 +202,8 @@
 					<?php 
 					 	$fecha = date("Y-m-d");
 					?>
-        	        <input type="hidden" name="fecha_ingreso" value="<?php echo $fecha ?>">
-					<button type="submit" class="btn btn-primary">Enviar</button>
+        	        <input type="hidden" id="fecha_ingreso" name="fecha_ingreso" value="<?php echo $fecha ?>">
+					<button type="button" class="btn btn-primary" onClick="sendContact();">Enviar</button>
 				</div>
 			<!-- </form> -->
 		</div>

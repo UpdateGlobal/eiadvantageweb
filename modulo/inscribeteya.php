@@ -76,7 +76,7 @@
         if(valid) {
             jQuery.ajax({
                 url: "inscription_form.php",
-                data:'direccion='+$("#direccion").val()+'&telefono='+$("#telefono").val()+'&email='+$("#email").val(),
+                data:'direccion='+$("#direccion").val()+'&telefono='+$("#telefono").val()+'&email='+$("#email").val()+'&fecha_ingreso='+$("#fecha").val(),
                 type: "POST",
                 success:function(data){
                     $("#mail-status").html(data);
@@ -131,17 +131,15 @@
 						<label>Correo Electr&oacute;nico:</label>
 						<input type="email" class="form-control" id="email" name="email" alt="" required />
 					</div>
-					<div class="form-froup col-xs-12">
+					<!-- <div class="form-froup col-xs-12">
 						<div class="g-recaptcha" data-sitekey="6LfJgUAUAAAAAFeg0bP035py8q-q2XMAlxPG5kbm"></div>
-					</div>
+					</div> -->
 					<br><br><br>
 					<div class="form-froup col-xs-12" align="center">
 						<div style="clear:both;"></div>
 						<div id="mail-status"></div>
-						<?php
-                			$fecha = date("Y-m-d");
-              			?>
-            			<input type="hidden" name="fecha_ingreso" value="<?php echo $fecha ?>">
+						<?php $fecha = date("Y-m-d"); ?>
+            			<input id="fecha" type="hidden" name="fecha_ingreso" value="<?php echo $fecha ?>">
 						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bs-example-modal-lg">Inscribete</button>
 					</div>
 				<!-- </form> -->
@@ -171,7 +169,7 @@
 				<div class="modal-footer">
 					<div id="send"></div>
 					<button type="button" class="btn btn-default btn-sm" data-dismiss="modal">No Acepto</button>
-					<button type="button" class="btn btn-primary btn-sm" onClick="sendContact();">Acepto</button>
+					<button type="button" class="btn btn-primary btn-sm" data-dismiss="modal" onClick="sendContact();">Acepto</button>
 				</div>
 			</div>
 		</div>

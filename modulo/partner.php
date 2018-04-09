@@ -4,7 +4,7 @@
         valid = validateContact();
         if(valid) {
             jQuery.ajax({
-                url: "contact_form.php",
+                url: "partner_form.php",
                 data:'nombres='+$("#nombres").val()+'&apellidos='+$("#apellidos").val()+'&cargo='+$("#cargo").val()+'&organizacion='+$("#organizacion").val()+'&direccion='+$("#direccion").val()+'&ciudad='+$("#ciudad").val()+'&estado='+$("#estado").val()+'&postal='+$("#postal").val()+'&pais='+$("#pais").val()+'&telefono='+$("#telefono").val()+'&email='+$("#email").val()+'&comentarios='+$("#comentarios").val()+'&fecha_ingreso='+$("#fecha_ingreso").val(),
                 type: "POST",
                 success:function(data){
@@ -194,10 +194,10 @@
 		</div>
 		<div class="col-sm-12">
 			<div>
-			<!-- <form> -->
+			  <!-- <form> -->
 				<div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<label>Nombre(s):</label>
-					<input type="text" class="form-control" id="nombres" name="nombres" required >
+					<input type="text" class="form-control" id="nombres" name="nombres" required />
 				</div>
 				<div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<label>Apellido(s):</label>
@@ -229,11 +229,11 @@
 				</div>
 				<div class="form-group col-xs-12 col-sm-12 col-md-4 col-lg-4">
 					<label>Pa&iacute;s:</label>
-					<input type="number" class="form-control" id="pais" name="pais" required />
+					<input type="text" class="form-control" id="pais" name="pais" required />
 				</div>
 				<div class="form-group col-xs-12 col-sm-12 col-md-4 col-lg-4">
 					<label>N&uacute;mero Telef&oacute;co:</label>
-					<input type="email" class="form-control" id="telefono" name="telefono" required />
+					<input type="text" class="form-control" id="telefono" name="telefono" required />
 				</div>
 				<div class="form-group col-xs-12 col-sm-12 col-md-4 col-lg-4">
 					<label>Correo Eletr&oacute;nico:</label>
@@ -243,20 +243,20 @@
 					<label>Comentarios:</label>
 					<textarea id="comentarios" name="comentarios" class="form-control" rows="5" required></textarea>
 				</div>
-				<div class="form-froup col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<!-- <div class="form-froup col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="g-recaptcha" data-sitekey="6LfJgUAUAAAAAFeg0bP035py8q-q2XMAlxPG5kbm"></div>
-				</div>
+				</div> -->
 				<div align="center">
 					<br><br><br>
 					<div id="mail-status"></div>
-              		<?php
-                		$fecha = date("Y-m-d");
-              		?>
-            		<input type="hidden" name="fecha_ingreso" value="<?php echo $fecha ?>">
+          <?php
+            $fecha = date("Y-m-d");
+          ?>
+          <input type="hidden" id="fecha_ingreso" name="fecha_ingreso" value="<?php echo $fecha ?>">
 					<button name="submit" class="btn btn-primary" onClick="sendContact();">Enviar</button>
 					<br><br><br>
 				</div>
-			<!-- </form> -->
+			  <!-- </form> -->
 			</div>
 		</div>
 	</div>
