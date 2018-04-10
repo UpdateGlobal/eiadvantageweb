@@ -3,42 +3,34 @@
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <html class="no-js" lang="es">
-
 <head>
-
 	<?php include ('modulo/headerdescripcion.php');?>
-
-
 </head>
-
 <body>
-		<?php
-			include ('modulo/preload.php');
-			include ('modulo/topbar.php');
-			include ('modulo/menu.php');
-			?>
-			<div class="innerheader-wrapp">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<h2>Manual Tecnico</h2>
-							<ol class="breadcrumb">
-								<li><a href="index.php"><i class="fa fa-home"></i> Inicio</a></li>
-								<li><a href="manualTecnico.php"><i class="fa fa-clone"></i> Manual Tecnico</a></li>
-							</ol>
-						</div>
-					</div>
+	<?php
+		include ('modulo/preload.php');
+		include ('modulo/topbar.php');
+		include ('modulo/menu.php');
+	?>
+	<div class="innerheader-wrapp">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Manual T&eacute;cnico</h2>
+					<ol class="breadcrumb">
+						<li><a href="/index.php"><i class="fa fa-home"></i> Inicio</a></li>
+						<li><a href="/manualTecnico.php"><i class="fa fa-clone"></i> Manual Tecnico</a></li>
+					</ol>
 				</div>
-
 			</div>
-				<br><br><br><br><br>
-			<?php
-		include ('modulo/manualTecnico.php');
-		include 'modulo/contactobtn.php';
-			include ('modulo/footer.php');
-
-		?>
-
+		</div>
+	</div>
+	<br><br><br><br><br>
+	<?php
+		include('modulo/manualTecnico.php');
+		include('modulo/contactobtn.php');
+		include('modulo/footer.php');
+	?>
 	<!-- Start to top -->
 	<a href="index-corporate-alt1.html#" class="toTop">
 		<i class="fa fa-chevron-up"></i>
@@ -138,3 +130,4 @@
 	<!-- Theme option-->
 	<script src="js/template-option/demosetting.js"></script>
 </body>
+</html>

@@ -18,7 +18,7 @@
 					<?php echo $xContenido_3; ?>
 				</div>
 				<div class="col-sm-6 animated fadeInRightBig" align="center">	
-					<img src="cms/assets/img/contenidos/<?php echo $xContenido_4; ?>" class="img-responsive" style="width: 65%; margin-top: 100px;">
+					<img src="/cms/assets/img/contenidos/<?php echo $xContenido_4; ?>" class="img-responsive" style="width: 65%; margin-top: 100px;">
 					<p><?php echo $xContenido_5; ?></p>				
 				</div>
 			</div>

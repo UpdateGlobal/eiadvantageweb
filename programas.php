@@ -19,8 +19,8 @@
 				<div class="col-md-12">
 					<h2>Programas</h2>
 					<ol class="breadcrumb">
-						<li><a href="index.php"><i class="fa fa-home"></i> Inicio</a></li>
-						<li><a href="programas.php"><i class="fa fa-clone"></i> Programas</a></li>
+						<li><a href="/index.php"><i class="fa fa-home"></i> Inicio</a></li>
+						<li><a href="/programas.php"><i class="fa fa-clone"></i> Programas</a></li>
 					</ol>
 				</div>
 			</div>

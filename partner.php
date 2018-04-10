@@ -18,8 +18,8 @@
 				<div class="col-md-12">
 					<h2>Partner</h2>
 					<ol class="breadcrumb">
-						<li><a href="index.php"><i class="fa fa-home"></i> Inicio</a></li>
-						<li><a href="partner.php"><i class="fa fa-clone"></i> Partner</a></li>
+						<li><a href="/index.php"><i class="fa fa-home"></i> Inicio</a></li>
+						<li><a href="/partner.php"><i class="fa fa-clone"></i> Partner</a></li>
 					</ol>
 				</div>
 			</div>
@@ -30,9 +30,7 @@
 	<?php
 		if($xContacto=="1"){ 
         	include('modulo/contactobtn.php');
-    	}else{ 
-			
-    	}
+    	}else{ }
 	?>
 	<?php include ('modulo/footer.php'); ?>
 	<?php include ('modulo/scripts.php'); ?>

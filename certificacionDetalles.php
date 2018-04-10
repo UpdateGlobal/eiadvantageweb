@@ -19,8 +19,8 @@
 				<div class="col-md-12">
 					<h2>Certificaciónes</h2>
 					<ol class="breadcrumb">
-						<li><a href="index.php"><i class="fa fa-home"></i> Inicio</a></li>
-						<li><a href="certificacionDetalles.php"><i class="fa fa-clone"></i> Certificaciónes</a></li>
+						<li><a href="/index.php"><i class="fa fa-home"></i> Inicio</a></li>
+						<li><a href="/certificacionDetalles.php"><i class="fa fa-clone"></i> Certificaciónes</a></li>
 					</ol>
 				</div>
 			</div>

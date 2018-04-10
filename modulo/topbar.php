@@ -10,7 +10,7 @@
                 $xLogo      = $filaMet['logo'];
           ?>
          	<a href="index.php">
-            	<img src="cms/assets/img/meta/<?php echo $xLogo; ?>" class="img-responsive" style="width: 75%; height: 80%;">
+            	<img src="/cms/assets/img/meta/<?php echo $xLogo; ?>" class="img-responsive" style="width: 75%; height: 80%;">
           </a>
           <?php
         		}
@@ -41,13 +41,13 @@
          <div class="col-md-6">
             <ul class="right-link">
                <li>
-                  <a href="blog.php">Visita Nuestro Blog</a>
+                  <a href="/blog.php">Visita Nuestro Blog</a>
                </li>
                <li>
                   <a href="#">Registro Webinar</a>
                </li>
                <li>
-                  <a href="timeline.php">Proximas Certificaciones</a>
+                  <a href="/timeline.php">Proximas Certificaciones</a>
                </li>
             </ul>
          </div>

@@ -19,8 +19,8 @@
 				<div class="col-md-12">
 					<h2>Inscribete</h2>
 					<ol class="breadcrumb">
-						<li><a href="index.php"><i class="fa fa-home"></i> Inicio</a></li>
-						<li><a href="inscribeteya.php"><i class="fa fa-clone"></i> Inscribete</a></li>
+						<li><a href="/index.php"><i class="fa fa-home"></i> Inicio</a></li>
+						<li><a href="/inscribeteya.php"><i class="fa fa-clone"></i> Inscribete</a></li>
 					</ol>
 				</div>
 			</div>

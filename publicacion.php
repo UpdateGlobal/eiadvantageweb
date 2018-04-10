@@ -1,5 +1,12 @@
 <?php include("cms/module/conexion.php"); ?>
-<?php $cod_noticia = $_REQUEST['cod_noticia']; ?>
+<?php $slug = $_REQUEST['slug']; ?>
+<?php 
+  $consultaNoticias = "SELECT * FROM noticias WHERE slug='$slug'";
+  $ejecutarNoticias = mysqli_query($enlaces,$consultaNoticias) or die('Consulta fallida: ' . mysqli_error($enlaces));
+  $filaNot = mysqli_fetch_array($ejecutarNoticias);
+    $slug           = $filaNot['slug'];
+    $cod_noticia    = $filaNot['cod_noticia'];
+?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
@@ -15,7 +22,6 @@
 		include ('modulo/menu.php');
 	?>
 	<?php include('modulo/post.php'); ?>
-
 	<?php
 		include('modulo/footer.php');
 	?>

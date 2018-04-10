@@ -19,8 +19,8 @@
 				<div class="col-md-12">
 					<h2>Evaluaciones</h2>
 					<ol class="breadcrumb">
-						<li><a href="index.php"><i class="fa fa-home"></i> Inicio</a></li>
-						<li><a href="evaluciones.php"><i class="fa fa-clone"></i> Evaluaciones</a></li>
+						<li><a href="/index.php"><i class="fa fa-home"></i> Inicio</a></li>
+						<li><a href="/evaluciones.php"><i class="fa fa-clone"></i> Evaluaciones</a></li>
 					</ol>
 				</div>
 			</div>
@@ -45,3 +45,4 @@
 	<?php include('modulo/footer.php'); ?>
 	<?php include('modulo/scripts.php'); ?>
 </body>
+</html>

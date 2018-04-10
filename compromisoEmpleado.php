@@ -19,8 +19,8 @@
 				<div class="col-md-12">
 					<h2>Compromiso de los Trabajadores</h2>
 					<ol class="breadcrumb">
-						<li><a href="index.php"><i class="fa fa-home"></i> Inicio</a></li>
-						<li><a href="compromisoEmpleado.php"><i class="fa fa-clone"></i> Compromiso de los Trabajadores</a></li>
+						<li><a href="/index.php"><i class="fa fa-home"></i> Inicio</a></li>
+						<li><a href="/compromisoEmpleado.php"><i class="fa fa-clone"></i> Compromiso de los Trabajadores</a></li>
 					</ol>
 				</div>
 			</div>
@@ -33,3 +33,4 @@
 	?>
 	<?php include('modulo/scripts.php'); ?>
 </body>
+</html>

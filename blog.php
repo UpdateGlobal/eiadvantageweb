@@ -19,8 +19,8 @@
 				<div class="col-md-12">
 					<h2>Blog E.I. Advantage Genos International</h2>
 					<ol class="breadcrumb">
-						<li><a href="index.php"><i class="fa fa-home"></i> Inicio</a></li>
-						<li><a href="blog.php"><i class="fa fa-clone"></i> Blog</a></li>
+						<li><a href="/index.php"><i class="fa fa-home"></i> Inicio</a></li>
+						<li><a href="/blog.php"><i class="fa fa-clone"></i> Blog</a></li>
 					</ol>
 				</div>
 			</div>

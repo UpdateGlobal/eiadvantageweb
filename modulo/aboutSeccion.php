@@ -38,14 +38,14 @@
 <div class="container">
    <br><br><br><br>
    <div class="container fadeDown" align="center">
-      <h1><strong><?php echo $xTitulo; ?></strong></h1>
+      <h1><strong><?php echo $xTitulonos; ?></strong></h1>
    </div>
 </div>
 <div class="container">
    <div class="row">
       <br><br>
       <div>
-        <?php echo $xDescripcion; ?>
+        <?php echo $xDescripcionos; ?>
       </div>
    </div>
 </div>

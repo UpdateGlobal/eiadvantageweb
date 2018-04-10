@@ -19,7 +19,7 @@
             ?>
 			<li data-transition="slideremoveright">
 				<!-- MAIN IMAGE -->
-				<img src="cms/assets/img/banner/<?php echo $xImagen; ?>" style="height: 400px;" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+				<img src="/cms/assets/img/banner/<?php echo $xImagen; ?>" style="height: 400px;" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 					
 				<!-- LAYER NR. 2 -->
 				<div class="tp-caption cap-boxed secondary-bg" 

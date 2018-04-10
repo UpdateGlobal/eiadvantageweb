@@ -35,16 +35,16 @@
 					<!-- Start post 1 -->
 					<article class="post">
 						<div class="media-wrapper">
-							<a href="publicacion.php?cod_noticia=<?php echo $xCodigo; ?>"><img src="cms/assets/img/noticias/<?php echo $xImagen; ?>" class="img-responsive" alt=""></a>
+							<a href="/blog/<?php echo $xSlugn; ?>"><img src="/cms/assets/img/noticias/<?php echo $xImagen; ?>" class="img-responsive" alt=""></a>
 						</div>
-						<h4><a href="publicacion.php?cod_noticia=<?php echo $xCodigo; ?>"><?php echo $xTitulo; ?></a></h4>
+						<h4><a href="/blog/<?php echo $xSlugn; ?>"><?php echo $xTitulo; ?></a></h4>
 						<p class="text-justify"><?php 
 							$xDescripcion_sub = strip_tags($xDescripcion);
 	                      	$strCut = substr($xDescripcion_sub,0,480);
 	                      	$xDescripcion_sub = substr($strCut,0,strrpos($strCut, ' ')).'...';
 	                      	echo $xDescripcion_sub;
 	                    ?></p>
-						<p><a href="publicacion.php?cod_noticia=<?php echo $xCodigo; ?>" class="btn btn-primary">Leer Mas</a></p>
+						<p><a href="/blog/<?php echo $xSlugn; ?>" class="btn btn-primary">Leer M&aacute;s</a></p>
 					</article>
 					<!-- End post 1 -->
 					<?php 

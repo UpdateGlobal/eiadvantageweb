@@ -24,7 +24,7 @@
 					echo utf8_decode($dias[date('w', $mydate)]." ".date('d', $mydate)." de ".$meses[date('n', $mydate)-1]. " del ".date('Y', $mydate));
 				?>
 			</h5>
-			<img src="cms/assets/img/noticias/<?php echo $xImagen; ?>" class="img-responsive" />
+			<img src="/cms/assets/img/noticias/<?php echo $xImagen; ?>" class="img-responsive" />
 			<br>
 			<h5><?php echo $xSubtitulo; ?></h5>
 			<?php echo $xNoticias; ?>
@@ -32,7 +32,7 @@
 			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a392b411b1ea275"></script>
 			<!-- Vaya a www.addthis.com/dashboard para personalizar sus herramientas --> 
 			<div class = "addthis_inline_share_toolbox"></div>
-			<a href="blog.php" class="btn btn-primary">« Volver</a>
+			<a href="/blog.php" class="btn btn-primary">&laquo; Volver</a>
 			<br>
 			<?php 
 				}

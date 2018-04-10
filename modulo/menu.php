@@ -29,7 +29,7 @@
       <div class="collapse navbar-collapse" id="navbar-menu">
          <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
             <li>
-               <a href="index.php">Inicio</a>
+               <a href="/index.php">Inicio</a>
             </li>
             <li class="dropdown">
                <a href="#" class="dropdown-toggle">Nosotros</a>
@@ -38,11 +38,11 @@
                     $consultarNosotros = "SELECT * FROM nosotros ORDER BY orden";
                     $resultadoNosotros = mysqli_query($enlaces,$consultarNosotros) or die('Consulta fallida: ' . mysqli_error($enlaces));
                     while($filaNos = mysqli_fetch_array($resultadoNosotros)){
-                       $xCodigom		 = $filaNos['cod_nosotros'];
+                       $xSlugnos		 = $filaNos['slug'];
                        $xTexto_menum = $filaNos['texto_menu'];
                   ?>
                   <li>
-                     <a href="about.php?cod_nosotros=<?php echo $xCodigom; ?>"><?php echo $xTexto_menum; ?></a>
+                     <a href="/nosotros/<?php echo $xSlugnos; ?>"><?php echo $xTexto_menum; ?></a>
                   </li>
                   <?php
                   	}
@@ -54,7 +54,7 @@
                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Inteligencia Emocional</a>
                <ul class="dropdown-menu" style="margin-top: -5px;">
                	<li class="dropdown.menu">
-                     <a href="inteligenciaEmocional.php">&iquest;Qu&eacute; es Inteligencia Emocional?</a>
+                     <a href="/inteligenciaEmocional.php">&iquest;Qu&eacute; es Inteligencia Emocional?</a>
                   </li>
                   <?php
                   	$consultarInteligenciaLista = "SELECT * FROM inteligencia_lista WHERE estado=1 ORDER BY orden";
@@ -64,7 +64,7 @@
                     	   $xLinkm		= $filaIntl['link'];
                   ?>
                   <li class="dropdown.menu">
-                     <a href="<?php echo $xLinkm; ?>"><?php echo $xTitulom; ?></a>
+                     <a href="/<?php echo $xLinkm; ?>"><?php echo $xTitulom; ?></a>
                   </li>
                   <?php
                   	}
@@ -73,19 +73,19 @@
                </ul>
             </li>
             <li>
-               <a href="casoEstudio.php">Estudio de Caso</a>
+               <a href="/casoEstudio.php">Estudio de Caso</a>
             </li>
             <li>
-               <a href="programas.php">Programas</a>
+               <a href="/programas.php">Programas</a>
             </li>
             <li class="dropdown">
                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Certificaciones</a>
                <ul class="dropdown-menu" style="margin-top: -5px;">
                   <li class="dropdown">
-                     <a href="certificacionDetalles.php">Detalles de Certificado</a>
+                     <a href="/certificacionDetalles.php">Detalles de Certificado</a>
                   </li>
                   <li>
-                     <a href="inscribeteya.php">Inscribete ya</a>
+                     <a href="/inscribeteya.php">Inscribete ya</a>
                   </li>
                </ul>
             </li>
@@ -93,18 +93,18 @@
                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Evaluaciónes</a>
                <ul class="dropdown-menu" style="margin-top: -5px;">
                   <li class="dropdown">
-                     <a href="evaluciones.php">Evaluaciónes</a>
+                     <a href="/evaluciones.php">Evaluaciónes</a>
                   </li>
                   <li>
-                     <a href="compromisoEmpleado.php">Compromiso de los Trabajadores</a>
+                     <a href="/compromisoEmpleado.php">Compromiso de los Trabajadores</a>
                   </li>
                </ul>
             </li>
             <li>
-               <a href="partner.php">Partner</a>
+               <a href="/partner.php">Partner</a>
             </li>
             <li>
-               <a href="contacto.php">Contacto</a>
+               <a href="/contacto.php">Contacto</a>
             </li>
          </ul>
       </div>

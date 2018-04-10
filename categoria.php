@@ -1,5 +1,11 @@
 <?php include("cms/module/conexion.php"); ?>
-<?php $cod_categoria = $_REQUEST['cod_categoria']; ?>
+<?php $slug = $_REQUEST['slug']; ?>
+<?php
+	$consultarCategorias = "SELECT * FROM noticias_categorias WHERE slug='$slug'";
+	$resultadoCategorias = mysqli_query($enlaces, $consultarCategorias);
+	$filaCat = mysqli_fetch_array($resultadoCategorias);
+		$cod_categoria	= $filaCat['cod_categoria'];
+?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
@@ -20,8 +26,8 @@
 				<div class="col-md-12">
 					<h2>Blog E.I. Advantage Genos International</h2>
 					<ol class="breadcrumb">
-						<li><a href="index.php"><i class="fa fa-home"></i> Inicio</a></li>
-						<li><a href="blog.php"><i class="fa fa-clone"></i> Blog</a></li>
+						<li><a href="/index.php"><i class="fa fa-home"></i> Inicio</a></li>
+						<li><a href="/blog.php"><i class="fa fa-clone"></i> Blog</a></li>
 						<li><a href=""><i class="fa fa-clone"></i> Categor&iacute;a</a></li>
 					</ol>
 				</div>

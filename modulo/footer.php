@@ -7,7 +7,7 @@
                <h5>Inteligencia Emocional</h5>
                <hr>
                <ul>
-                  <li><a class="linkfoot" href="inteligenciaEmocional.php">Que es Inteligencia Emocional</a></li>
+                  <li><a class="linkfoot" href="/inteligenciaEmocional.php">Que es Inteligencia Emocional</a></li>
                   <?php
                      $consultarInteligenciaLista = "SELECT * FROM inteligencia_lista WHERE estado=1 ORDER BY orden";
                      $resultadoInteligenciaLista = mysqli_query($enlaces, $consultarInteligenciaLista);
@@ -15,7 +15,7 @@
                         $xTitulof   = $filaIntl['titulo'];
                         $xLinkf     = $filaIntl['link'];
                   ?>
-                  <li><a class="linkfoot" href="<?php echo $xLinkf; ?>"><?php echo $xTitulof; ?></a></li>
+                  <li><a class="linkfoot" href="/<?php echo $xLinkf; ?>"><?php echo $xTitulof; ?></a></li>
                   <?php
                      }
                      mysqli_free_result($resultadoInteligenciaLista);
@@ -34,8 +34,10 @@
                      while($filaCas = mysqli_fetch_array($resultadoCasos)){
                         $xCodigof    = $filaCas['cod_caso'];
                         $xTitulof    = $filaCas['titulo'];
+                        $xSlugcas    = $filaCas['slug'];
+
                   ?>
-                  <li><a class="linkfoot" href="caso.php?cod_caso=<?php echo $xCodigof; ?>"><?php echo $xTitulof; ?></a></li>
+                  <li><a class="linkfoot" href="/casos/<?php echo $xSlugcas; ?>"><?php echo $xTitulof; ?></a></li>
                   <?php
                      }
                      mysqli_free_result($resultadoCasos);
@@ -48,18 +50,18 @@
                <h5>Programas</h5>
                <hr>
                <ul>
-                  <li><a class="linkfoot" href="#">Programas</a></li>
+                  <li><a class="linkfoot" href="/programas.php">Programas</a></li>
                </ul>
                <hr>
-               <h5>Certificacion</h5>
+               <h5>Certificaci&oacute;n</h5>
                <ul>
-                  <li><a class="linkfoot" href="#">Certificaci&oacute;n</a></li>
+                  <li><a class="linkfoot" href="/certificacionDetalles.php">Certificaci&oacute;n</a></li>
                </ul>
                <hr>
                <h5>Evaluaciones</h5>
                <ul>
-                  <li><a class="linkfoot" href="#">Evaluaciones</a></li>
-                  <li><a class="linkfoot" href="#">Compromiso Empleados</a></li>
+                  <li><a class="linkfoot" href="/evaluciones.php">Evaluaciones</a></li>
+                  <li><a class="linkfoot" href="/compromisoEmpleado.php">Compromiso Empleados</a></li>
                </ul>
                <hr>
             </div>
@@ -75,8 +77,9 @@
                     while($filaNos = mysqli_fetch_array($resultadoNosotros)){
                        $xCodigof      = $filaNos['cod_nosotros'];
                        $xTexto_menuf  = $filaNos['texto_menu'];
+                       $xSlugnos      = $filaNos['slug'];
                   ?>
-                  <li><a class="linkfoot" href="about.php?cod_nosotros=<?php echo $xCodigof; ?>"><?php echo $xTexto_menuf; ?></a></li>
+                  <li><a class="linkfoot" href="/nosotros/<?php echo $xSlugnos; ?>"><?php echo $xTexto_menuf; ?></a></li>
                   <?php
                      }
                      mysqli_free_result($resultadoNosotros);
@@ -85,7 +88,7 @@
                <h5>Partner</h5>
                <hr>
                <ul>
-                  <li><a class="linkfoot" href="#">Partner</a></li>
+                  <li><a class="linkfoot" href="/partner.php">Partner</a></li>
                </ul>
                <?php
               	   $consultarMet = 'SELECT * FROM metatags';
@@ -93,7 +96,7 @@
               	   $filaMet = mysqli_fetch_array($resultadoMet);
                      $xLogo      = $filaMet['logo'];
           	   ?>
-               <img src="cms/assets/img/meta/<?php echo $xLogo; ?>" style="width: 100%;">
+               <img src="/cms/assets/img/meta/<?php echo $xLogo; ?>" style="width: 100%;">
             </div>
          </div>
       </div>

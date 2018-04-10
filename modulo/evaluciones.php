@@ -23,7 +23,7 @@
                     $xOrden     	= $filaEval['orden'];
             ?>
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" align="right">
-				<img src="cms/assets/img/evaluaciones/<?php echo $xImagen; ?>" class="img-responsive">
+				<img src="/cms/assets/img/evaluaciones/<?php echo $xImagen; ?>" class="img-responsive">
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<h3><?php echo $xTitulol; ?></h3>

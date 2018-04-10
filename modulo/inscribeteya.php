@@ -75,7 +75,7 @@
         valid = validateContact();
         if(valid) {
             jQuery.ajax({
-                url: "inscription_form.php",
+                url: "/inscription_form.php",
                 data:'direccion='+$("#direccion").val()+'&telefono='+$("#telefono").val()+'&email='+$("#email").val()+'&fecha_ingreso='+$("#fecha").val(),
                 type: "POST",
                 success:function(data){

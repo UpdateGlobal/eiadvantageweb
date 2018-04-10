@@ -24,7 +24,7 @@
 			<div class="icon-center-top">
 				<?php echo $descripcionl; ?>
 				<button type="button" class="btn">
-					<a href="<?php echo $link; ?>">Ver M&aacute;s</a>
+					<a href="/<?php echo $link; ?>">Ver M&aacute;s</a>
 				</button>
 			</div>
 			<?php

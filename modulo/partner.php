@@ -4,7 +4,7 @@
         valid = validateContact();
         if(valid) {
             jQuery.ajax({
-                url: "partner_form.php",
+                url: "/partner_form.php",
                 data:'nombres='+$("#nombres").val()+'&apellidos='+$("#apellidos").val()+'&cargo='+$("#cargo").val()+'&organizacion='+$("#organizacion").val()+'&direccion='+$("#direccion").val()+'&ciudad='+$("#ciudad").val()+'&estado='+$("#estado").val()+'&postal='+$("#postal").val()+'&pais='+$("#pais").val()+'&telefono='+$("#telefono").val()+'&email='+$("#email").val()+'&comentarios='+$("#comentarios").val()+'&fecha_ingreso='+$("#fecha_ingreso").val(),
                 type: "POST",
                 success:function(data){

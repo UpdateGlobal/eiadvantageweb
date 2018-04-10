@@ -55,18 +55,17 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="section-heading text-center">
-					<div class="movi2">
-					<div id="buttons">
-						<br>
-						<div id="buttons">
-							<a href="#" class="btn green">Contactanos</a>
-							</br>
+						<div class="movi2">
+							<div id="buttons">
+								<br>
+								<div id="buttons">
+									<a href="#" class="btn green">Contactanos</a>
+									</br>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>	
-						<p>
-							<strong>See</strong> what's in the
-							<strong>bacotna</strong> package</p>
+						<p><strong>See</strong> what's in the
+						<strong>bacotna</strong> package</p>
 					</div>
 				</div>
 			</div>
@@ -75,11 +74,8 @@
 					<div class="numeric-column">
 						<span class="numeric">01</span>
 						<div class="numeric-content">
-							<h5 class="heading-icon">
-								<i class="fa fa-tablet icon-circle icon-primary"></i> Fully responsive</h5>
-							<p>
-								No nec fugit theophrastus, an paulo signiferumque vis. Mea ne posse officiis adolescens quo stet exerci.
-							</p>
+							<h5 class="heading-icon"><i class="fa fa-tablet icon-circle icon-primary"></i> Fully responsive</h5>
+							<p>No nec fugit theophrastus, an paulo signiferumque vis. Mea ne posse officiis adolescens quo stet exerci.</p>
 							<a href="index-corporate-alt1.html#" class="btn btn-link">Learn more</a>
 						</div>
 					</div>
@@ -88,11 +84,8 @@
 					<div class="numeric-column">
 						<span class="numeric">02</span>
 						<div class="numeric-content">
-							<h5 class="heading-icon">
-								<i class="fa fa-gift icon-circle icon-primary"></i> Multipurpose</h5>
-							<p>
-								No nec fugit theophrastus, an paulo signiferumque vis. Mea ne posse officiis adolescens quo stet exerci.
-							</p>
+							<h5 class="heading-icon"><i class="fa fa-gift icon-circle icon-primary"></i> Multipurpose</h5>
+							<p>No nec fugit theophrastus, an paulo signiferumque vis. Mea ne posse officiis adolescens quo stet exerci.</p>
 							<a href="index-corporate-alt1.html#" class="btn btn-link">Learn more</a>
 						</div>
 					</div>

@@ -1,5 +1,11 @@
 <?php include("cms/module/conexion.php"); ?>
-<?php $cod_caso = $_REQUEST['cod_caso']; ?>
+<?php $slug = $_REQUEST['slug']; ?>
+<?php
+    $consultarCasos = "SELECT * FROM casos WHERE slug='$slug'";
+    $resultadoCasos = mysqli_query($enlaces, $consultarCasos);
+    $filaCas = mysqli_fetch_array($resultadoCasos);
+		$cod_caso   = $filaCas['cod_caso'];
+?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
@@ -20,8 +26,8 @@
 				<div class="col-md-12">
 					<h2>Casos de Estudio</h2>
 					<ol class="breadcrumb">
-						<li><a href="index.php"><i class="fa fa-home"></i> Inicio</a></li>
-						<li><a href="casoEstudio.php"><i class="fa fa-clone"></i> Casos de Estudio</a></li>
+						<li><a href="/index.php"><i class="fa fa-home"></i> Inicio</a></li>
+						<li><a href="/casoEstudio.php"><i class="fa fa-clone"></i> Casos de Estudio</a></li>
 						<li><a href=""><i class="fa fa-clone"></i> Art&iacute;culo</a></li>
 					</ol>
 				</div>

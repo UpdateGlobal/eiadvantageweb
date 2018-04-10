@@ -8,6 +8,7 @@
             $resultadoCasos = mysqli_query($enlaces, $consultarCasos);
             while($filaCas = mysqli_fetch_array($resultadoCasos)){
             	$xCodigo    = $filaCas['cod_caso'];
+            	$xSlugCas	= $filaCas['slug'];
                 $xTituloc   = $filaCas['titulo'];
                 $xImagen    = $filaCas['imagen'];
                 $xResumen   = $filaCas['resumen'];
@@ -16,7 +17,7 @@
         ?>
 		<div class="col-sm-4">
 			<div class="thumbnail">
-				<img src="cms/assets/img/casos/<?php echo $xImagen; ?>" class="img-responsive" />
+				<img src="/cms/assets/img/casos/<?php echo $xImagen; ?>" class="img-responsive" />
 				<div class="content">
 					<h4><?php 
 						$xTitulo_sub = strip_tags($xTituloc);
@@ -30,7 +31,7 @@
                     	$xResumen_sub = substr($strCut,0,strrpos($strCut, ' ')).'...';
                     	echo $xResumen_sub;
                     ?></p>
-					<p><a href="caso.php?cod_caso=<?php echo $xCodigo; ?>" class="btn btn-default btn-sm">Leer M&aacute;s</a></p>
+					<p><a href="/casos/<?php echo $xSlugCas; ?>" class="btn btn-default btn-sm">Leer M&aacute;s</a></p>
 				</div>
 			</div>
 		</div>

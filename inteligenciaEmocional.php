@@ -9,9 +9,9 @@
 </head>
 <body>
 	<?php
-		include ('modulo/preload.php');
-		include ('modulo/topbar.php');
-		include ('modulo/menu.php');
+		include('modulo/preload.php');
+		include('modulo/topbar.php');
+		include('modulo/menu.php');
 	?>
 	<div class="innerheader-wrapp">
 		<div class="container">
@@ -19,8 +19,8 @@
 				<div class="col-md-12">
 					<h2>Inteligencia Emocional</h2>
 					<ol class="breadcrumb">
-						<li><a href="index.php"><i class="fa fa-home"></i> Inicio</a></li>
-						<li><a href="inteligenciaEmocional.php"><i class="fa fa-clone"></i> Inteligencia Emocional</a></li>
+						<li><a href="/index.php"><i class="fa fa-home"></i> Inicio</a></li>
+						<li><a href="/inteligenciaEmocional.php"><i class="fa fa-clone"></i> Inteligencia Emocional</a></li>
 					</ol>
 				</div>
 			</div>
@@ -40,3 +40,4 @@
 	<?php include ('modulo/footer.php'); ?>
 	<?php include ('modulo/scripts.php'); ?>
 </body>
+</html>

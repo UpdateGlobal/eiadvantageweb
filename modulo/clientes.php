@@ -21,7 +21,7 @@
                <div class="item">
                		<div class="clients-logo">
                     	<a href="#">
-                    		<img src="cms/assets/img/carrusel/<?php echo $xImagen; ?>" alt="" />
+                    		<img src="/cms/assets/img/carrusel/<?php echo $xImagen; ?>" alt="" />
                     	</a>
                 	</div>
                </div>

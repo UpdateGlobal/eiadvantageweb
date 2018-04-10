@@ -202,7 +202,7 @@
 					<?php 
 					 	$fecha = date("Y-m-d");
 					?>
-        	        <input type="hidden" id="fecha_ingreso" name="fecha_ingreso" value="<?php echo $fecha ?>">
+        	<input type="hidden" id="fecha_ingreso" name="fecha_ingreso" value="<?php echo $fecha ?>">
 					<button type="button" class="btn btn-primary" onClick="sendContact();">Enviar</button>
 				</div>
 			<!-- </form> -->

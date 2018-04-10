@@ -18,7 +18,7 @@
 	                          $xCodigo    	= $filaTes['cod_testimonio'];
 	                          $xAutor    	= $filaTes['autor'];
 	                          $xDescripcion = $filaTes['testimonio'];
-	                          $xCargo     	= $filaTes['cargo'];  
+	                          $xCargo     	= $filaTes['cargo'];
 	                          $xLink		= $filaTes['link'];
 	                          $xLink_text	= $filaTes['link_text'];    
 	                    ?>
@@ -36,14 +36,14 @@
 										<?php echo $xAutor; ?>
 									</h6>
 									<p><?php echo $xCargo; ?> -
-										<a href="<?php echo $xLink; ?>"><?php echo $xLink_text; ?></a>
+										<a href="/<?php echo $xLink; ?>"><?php echo $xLink_text; ?></a>
 									</p>
 								</div>
 							</div>
 						</div>
 						<?php
-						}
-						mysqli_free_result($resultadoTestimonio);	 
+							}
+							mysqli_free_result($resultadoTestimonio);	 
 						?>
 					</div>
 				</div>
