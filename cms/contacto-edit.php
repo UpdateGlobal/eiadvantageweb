@@ -76,6 +76,7 @@ if($proceso == "Actualizar"){
             <small>Datos de contacto de su empresa</small>
           </h1>
         </div>
+        <?php $page="contacto"; include("module/menu-contacto.php"); ?>
       </header><!--/.header -->
       <div class="main-content">
         <div class="card">

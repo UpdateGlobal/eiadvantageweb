@@ -12,17 +12,17 @@ if($proceso == ""){
   $consultaProgramas = "SELECT * FROM programas_lista WHERE cod_programas_lista='$cod_programas_lista'";
   $ejecutarProgramas = mysqli_query($enlaces,$consultaProgramas) or die('Consulta fallida: ' . mysqli_error($enlaces));
   $filaPar = mysqli_fetch_array($ejecutarProgramas);
-  $cod_programas_lista      = $filaPar['cod_programas_lista'];
-  $titulo                   = htmlspecialchars_decode($filaPar['titulo']);
-  $descripcion              = $filaPar['descripcion'];
-  $orden                    = $filaPar['orden'];
-  $estado                   = $filaPar['estado'];
+  $cod_programas_lista    = $filaPar['cod_programas_lista'];
+  $titulo                 = htmlspecialchars_decode($filaPar['titulo']);
+  $descripcion            = $filaPar['descripcion'];
+  $orden                  = $filaPar['orden'];
+  $estado                 = $filaPar['estado'];
 }
-if($proceso=="Actualizar"){ 
-  $cod_programas_lista   = $_POST['cod_programas_lista'];
-  $titulo              = mysqli_real_escape_string($enlaces, $_POST['titulo']);
-  $descripcion         = $_POST['descripcion'];
-  $orden               = $_POST['orden'];
+if($proceso=="Actualizar"){
+  $cod_programas_lista    = $_POST['cod_programas_lista'];
+  $titulo                 = mysqli_real_escape_string($enlaces, $_POST['titulo']);
+  $descripcion            = $_POST['descripcion'];
+  $orden                  = $_POST['orden'];
   if(isset($_POST['estado'])){$estado = $_POST['estado'];}else{$estado = 0;}
     
   $actualizarProgramas = "UPDATE programas_lista SET cod_programas_lista='$cod_programas_lista', titulo='$titulo', descripcion='$descripcion', orden='$orden', estado='$estado' WHERE cod_programas_lista='$cod_programas_lista'";
@@ -61,7 +61,7 @@ if($proceso=="Actualizar"){
         <span class="dot3"></span>
       </div>
     </div>
-    <?php $menu="partner"; include("module/menu.php"); ?>
+    <?php $menu="programas"; include("module/menu.php"); ?>
     <?php include("module/header.php"); ?>
     <!-- Main container -->
     <main>

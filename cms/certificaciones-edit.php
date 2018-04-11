@@ -27,7 +27,7 @@ if($proceso=="Actualizar"){
   $estado         = $_POST['estado'];
 
   $actualizarCertifica = "UPDATE certificaciones SET cod_certifica='$cod_certifica', titulo='$titulo', fecha='$fecha', descripcion='$descripcion', orden='$orden', estado='$estado' WHERE cod_certifica='$cod_certifica'";
-  $resultadoActualizar = mysqli_query($enlaces,$insertarCertifica) or die('Consulta fallida: ' . mysqli_error($enlaces));
+  $resultadoActualizar = mysqli_query($enlaces,$actualizarCertifica) or die('Consulta fallida: ' . mysqli_error($enlaces));
   header("Location:certificaciones.php");
 }
 
@@ -83,7 +83,7 @@ if($proceso=="Actualizar"){
       </header><!--/.header -->
       <div class="main-content">
         <div class="card">
-          <h4 class="card-title"><strong>Registrar Certificación</strong></h4>
+          <h4 class="card-title"><strong>Registrar Certificaci&oacute;n</strong></h4>
           <form class="fcms" name="fcms" method="post" action="" data-provide="validation" data-disable="false">
             <div class="card-body">
               <?php if(isset($mensaje)){ echo $mensaje; } else {}; ?>
@@ -138,7 +138,7 @@ if($proceso=="Actualizar"){
 
             <footer class="card-footer">
               <a href="certificaciones.php" class="btn btn-secondary"><i class="fa fa-times"></i> Cancelar</a>
-              <button class="btn btn-bold btn-primary" type="button" name="boton" onClick="javascript:Validar();" /><i class="fa fa-chevron-circle-right"></i> Guardar Cambios</button>
+              <button class="btn btn-bold btn-primary" type="button" name="boton" onClick="javascript:Validar();" /><i class="fa fa-refresh"></i> Guardar Cambios</button>
               <input type="hidden" name="proceso">
               <input type="hidden" name="cod_certifica" value="<?php echo $cod_certifica; ?>">
             </footer>

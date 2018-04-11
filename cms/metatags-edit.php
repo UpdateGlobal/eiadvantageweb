@@ -127,7 +127,7 @@ if($proceso == "Actualizar"){
               <div class="form-group row">
                 <div class="col-4 col-lg-2">
                   <label class="col-form-label require" for="logo">Logotipo:</label><br>
-                  <small>(-px x -px)</small>
+                  <small>(814px x 150px)</small>
                 </div>
                 <div class="col-4 col-lg-8">
                   <?php if($xVisitante=="1"){ ?><p><?php echo $xLogo; ?></p><?php } ?>

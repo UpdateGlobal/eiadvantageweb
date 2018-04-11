@@ -61,7 +61,7 @@ if($proceso=="Actualizar"){
         <span class="dot3"></span>
       </div>
     </div>
-    <?php $menu="inteligencia"; include("module/menu.php"); ?>
+    <?php $menu="certificaciones"; include("module/menu.php"); ?>
     <?php include("module/header.php"); ?>
     <!-- Main container -->
     <main>

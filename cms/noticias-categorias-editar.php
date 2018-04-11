@@ -125,7 +125,7 @@ if($proceso == "Actualizar"){
 
             <footer class="card-footer">
               <a href="noticias-categorias.php" class="btn btn-secondary"><i class="fa fa-times"></i> Cancelar</a>
-              <button class="btn btn-bold btn-primary" type="button" name="boton" onClick="javascript:Validar();" /><i class="fa fa-chevron-circle-right"></i> Guardar Cambios</button>
+              <button class="btn btn-bold btn-primary" type="button" name="boton" onClick="javascript:Validar();" /><i class="fa fa-refresh"></i> Guardar Cambios</button>
               <input type="hidden" name="proceso">
               <input type="hidden" name="cod_categoria" value="<?php echo $cod_categoria; ?>">
             </footer>

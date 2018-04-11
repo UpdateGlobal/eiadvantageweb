@@ -16,9 +16,9 @@ if ($eliminar == "true") {
       $x++;
       if ($x == 1) {
           $sql = "DELETE FROM partner_principal WHERE cod_partner_principal=$id_partner_principal";
-        } else {
-          $sql = $sql . " OR cod_partner_principal=$id_partner_principal";
-        }
+      } else {
+        $sql = $sql . " OR cod_partner_principal=$id_partner_principal";
+      }
     }
   }
   mysqli_free_result($sqlResultado);

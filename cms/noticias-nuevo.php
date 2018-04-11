@@ -7,7 +7,6 @@ if (isset($_REQUEST['proceso'])) {
 } else {
   $proceso  = "";
 }
-
 if($proceso == "Registrar"){
   $categoria    = $_POST['cod_categoria'];
   $titulo       = mysqli_real_escape_string($enlaces, $_POST['titulo']);
@@ -114,7 +113,7 @@ if($proceso == "Registrar"){
               <div class="form-group row">
                 <div class="col-4 col-lg-2">
                   <label class="col-form-label" for="imagen">Imagen:</label><br>
-                  <small>(-px x -px)</small>
+                  <small>(850px x 370px)</small>
                 </div>
                 <div class="col-4 col-lg-8">
                   <input class="form-control" id="imagen" name="imagen" type="text">

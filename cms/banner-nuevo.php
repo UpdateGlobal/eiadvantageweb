@@ -11,7 +11,7 @@ if($proceso == "Registrar"){
   $imagen       = $_POST['imagen'];
   $titulo       = mysqli_real_escape_string($enlaces, $_POST['titulo']);
   $texto        = mysqli_real_escape_string($enlaces, $_POST['texto']);
-  if(isset($_POST['orden'])){$orden = $_POST['orden'];}else{$orden = 0;
+  if(isset($_POST['orden'])){$orden = $_POST['orden'];}else{$orden = 0;}
   if(isset($_POST['estado'])){$estado = $_POST['estado'];}else{$estado = 0;}
   $insertarBanner = "INSERT INTO banners(imagen, titulo, texto, orden, estado)VALUE('$imagen', '$titulo', '$texto', '$orden', '$estado')";
   $resultadoInsertar = mysqli_query($enlaces,$insertarBanner);
@@ -77,7 +77,7 @@ if($proceso == "Registrar"){
               <div class="form-group row">
                 <div class="col-4 col-lg-2">
                   <label class="col-form-label require" for="imagen">Imagen:</label><br>
-                  <small>(-px x -px)</small>
+                  <small>(1920px x 586px)</small>
                 </div>
                 <div class="col-4 col-lg-8">
                   <input class="form-control" id="imagen" name="imagen" type="text" required>

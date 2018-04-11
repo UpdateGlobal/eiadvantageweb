@@ -118,7 +118,7 @@ if ($eliminar == "true") {
                           $xCodigo    = $filaCon['cod_partner'];
                           $xNombres   = $filaCon['nombres'];
                           $xApellidos = $filaCon['apellidos'];
-                          $xEmail     = $filaCon['correo'];
+                          $xEmail     = $filaCon['email'];
                           $xTelefono  = $filaCon['telefono'];
                           $xFecha     = $filaCon['fecha_ingreso'];
                           $num++;

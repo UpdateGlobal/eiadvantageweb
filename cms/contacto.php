@@ -27,7 +27,6 @@
         </div>
         <?php $page="contacto"; include("module/menu-contacto.php"); ?>
       </header><!--/.header -->
-      
       <div class="main-content">
         <div class="row">
           <div class="col-md-12">

@@ -4,7 +4,7 @@
 	<?php
         $consultarMet = 'SELECT * FROM metatags';
         $resultadoMet = mysqli_query($enlaces,$consultarMet) or die('Consulta fallida: ' . mysqli_error($enlaces));
-        while($filaMet = mysqli_fetch_array($resultadoMet)){
+        $filaMet = mysqli_fetch_array($resultadoMet);
         	$xTitulo    = $filaMet['titulo'];
             $xSlogan    = $filaMet['slogan'];
             $xDes       = $filaMet['description'];
@@ -17,8 +17,24 @@
 	<title><?php echo $xTitulo; ?> | <?php echo $xSlogan; ?></title>
 	<meta name="description" content="<?php echo $xDes; ?>">
 	<meta name="keywords" content="<?php echo $xKey; ?>">
+	
+	<meta name="DC.title" content="<?php echo $xTitulo; ?>" />
+	<meta name="DC.description" lang="es" content="<?php echo $xDes; ?>" />
+	<meta name="geo.region" content="PE-LIM" />
+	
+	<meta property="og:title" content="<?php echo $xTitulo; ?>" />
+	<meta property="og:type" content="company" />
+	<meta property="og:description" content="<?php echo $xDes; ?>" />
+	<meta property="og:url" content="<?php echo $xUrl; ?>" />
+	<meta property="og:image" content="<?php echo $xUrl; ?>/cms/assets/img/meta/<?php echo $xFace1; ?>" />
+	<meta property="og:image" content="<?php echo $xUrl; ?>/cms/assets/img/meta/<?php echo $xFace2; ?>" />
+
 	<link rel="icon" href="/cms/assets/img/meta/<?php echo $xIco; ?>">
 	<meta name="robots" content="index,follow">
+	<?php
+    	}
+    	mysqli_free_result($resultadoMet);
+	?>
 	<!-- Bootstrap Core CSS -->
 	<link href="/css/bootstrap.css" rel="stylesheet">
 

@@ -9,16 +9,16 @@
 </head>
 <body>
 	<?php
-		include ('modulo/preload.php');
-		include ('modulo/topbar.php');
-		include ('modulo/menu.php');
-		include ('modulo/slider.php');
-		include ('modulo/seccion1-1.php');
-		include ('modulo/seccion1-2.php');
-		include ('modulo/testimonios.php');
-		include ('modulo/clientes.php');
-		include ('modulo/contactobtn.php');
-		include ('modulo/footer.php');
+		include('modulo/preload.php');
+		include('modulo/topbar.php');
+		include('modulo/menu.php');
+		include('modulo/slider.php');
+		include('modulo/seccion1-1.php');
+		include('modulo/seccion1-2.php');
+		include('modulo/testimonios.php');
+		include('modulo/clientes.php');
+		include('modulo/contactobtn.php');
+		include('modulo/footer.php');
 	?>
 	<?php include('modulo/scripts.php'); ?>
 </body>

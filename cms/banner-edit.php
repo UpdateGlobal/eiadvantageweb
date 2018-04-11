@@ -86,7 +86,7 @@ if($proceso=="Actualizar"){
               <div class="form-group row">
                 <div class="col-4 col-lg-2">
                   <label class="col-form-label require" for="imagen">Imagen:</label><br>
-                  <small>(-px x -px)</small>
+                  <small>(1920px x 586px)</small>
                 </div>
                 <div class="col-4 col-lg-8">
                   <?php if($xVisitante=="1"){ ?><p><?php echo $imagen; ?></p><?php } ?>
